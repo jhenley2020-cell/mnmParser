@@ -1,0 +1,14 @@
+{
+  "by_ability": {
+    "Flameburst": 6,
+    "pierce": 6,
+    "Elemental Flash": 3,
+    "Elemental Flash (Water)": 3
+  },
+  "by_damage_type": {
+    "Fire": 6,
+    "melee": 6,
+    "Magic": 3,
+    "Cold": 3
+  }
+}

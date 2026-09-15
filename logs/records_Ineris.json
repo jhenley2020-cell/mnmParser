@@ -1,0 +1,11 @@
+{
+  "by_ability": {
+    "crush": 8,
+    "Minor Frostbite": 2,
+    "Blast of Sleet": 13
+  },
+  "by_damage_type": {
+    "melee": 8,
+    "Cold": 13
+  }
+}

@@ -1,0 +1,1646 @@
+[
+  {
+    "start_time": 1788492493.409,
+    "end_time": 1788492493.409,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 18,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492493.409,
+        "last_seen": 1788492493.409,
+        "abilities": [
+          {
+            "name": "slash",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 11,
+            "min_hit": 2,
+            "max_hit": 9
+          },
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 7,
+            "min_hit": 7,
+            "max_hit": 7
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Shalebrynth",
+        "total_damage": 56,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492493.409,
+        "last_seen": 1788492493.409,
+        "abilities": [
+          {
+            "name": "slashes",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 30,
+            "min_hit": 30,
+            "max_hit": 30
+          },
+          {
+            "name": "Rend",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 26,
+            "min_hit": 26,
+            "max_hit": 26
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788492471.629,
+    "end_time": 1788492493.409,
+    "actors": [
+      {
+        "name": "Shalebrynth",
+        "total_damage": 37,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492471.629,
+        "last_seen": 1788492474.123,
+        "abilities": [
+          {
+            "name": "Rend",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          },
+          {
+            "name": "slashes",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 33,
+            "min_hit": 33,
+            "max_hit": 33
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 25,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492471.629,
+        "last_seen": 1788492493.409,
+        "abilities": [
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 18,
+            "min_hit": 7,
+            "max_hit": 11
+          },
+          {
+            "name": "slash",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 7,
+            "min_hit": 7,
+            "max_hit": 7
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a wharf rat",
+        "total_damage": 6,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1788492493.409,
+        "last_seen": 1788492493.409,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 6,
+            "min_hit": 6,
+            "max_hit": 6
+          },
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788492450.821,
+    "end_time": 1788492471.629,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 61,
+        "total_healing": 0,
+        "hits": 6,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492450.821,
+        "last_seen": 1788492468.81,
+        "abilities": [
+          {
+            "name": "shoot",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 17,
+            "min_hit": 17,
+            "max_hit": 17
+          },
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 18,
+            "min_hit": 7,
+            "max_hit": 11
+          },
+          {
+            "name": "slash",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 26,
+            "min_hit": 7,
+            "max_hit": 12
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a wharf rat",
+        "total_damage": 6,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 4,
+        "heals": 0,
+        "first_seen": 1788492450.821,
+        "last_seen": 1788492462.887,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 4,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 6,
+            "min_hit": 6,
+            "max_hit": 6
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Shalebrynth",
+        "total_damage": 41,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492450.821,
+        "last_seen": 1788492460.802,
+        "abilities": [
+          {
+            "name": "Rend",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 41,
+            "min_hit": 4,
+            "max_hit": 26
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788492389.463,
+    "end_time": 1788492389.463,
+    "actors": [
+      {
+        "name": "a jackal",
+        "total_damage": 0,
+        "total_healing": 0,
+        "hits": 0,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1788492389.463,
+        "last_seen": 1788492389.463,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 7,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492389.463,
+        "last_seen": 1788492389.463,
+        "abilities": [
+          {
+            "name": "slash",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 7,
+            "min_hit": 7,
+            "max_hit": 7
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a spiderling",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492389.463,
+        "last_seen": 1788492389.463,
+        "abilities": [
+          {
+            "name": "hits",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Csee",
+        "total_damage": 8,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492389.463,
+        "last_seen": 1788492389.463,
+        "abilities": [
+          {
+            "name": "crushes",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 8,
+            "min_hit": 8,
+            "max_hit": 8
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788492374.16,
+    "end_time": 1788492389.463,
+    "actors": [
+      {
+        "name": "Frilbo",
+        "total_damage": 10,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492374.16,
+        "last_seen": 1788492378.364,
+        "abilities": [
+          {
+            "name": "crushes",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "Minor Frostbite",
+            "school": "Cold",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "Blast of Frost",
+            "school": "Cold",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 6,
+            "min_hit": 6,
+            "max_hit": 6
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 12,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 2,
+        "first_seen": 1788492374.16,
+        "last_seen": 1788492378.364,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Weak Heal",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 12,
+            "min_hit": 6,
+            "max_hit": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788492348.452,
+    "end_time": 1788492357.096,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 34,
+        "total_healing": 0,
+        "hits": 4,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492348.452,
+        "last_seen": 1788492357.096,
+        "abilities": [
+          {
+            "name": "slash",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 34,
+            "min_hit": 5,
+            "max_hit": 12
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a rotting skeleton",
+        "total_damage": 3,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 2,
+        "heals": 0,
+        "first_seen": 1788492349.967,
+        "last_seen": 1788492355.706,
+        "abilities": [
+          {
+            "name": "hit",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 2,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "hits",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 3,
+            "min_hit": 3,
+            "max_hit": 3
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788492274.782,
+    "end_time": 1788492348.452,
+    "actors": [
+      {
+        "name": "a jackal",
+        "total_damage": 87,
+        "total_healing": 0,
+        "hits": 11,
+        "crits": 0,
+        "misses": 10,
+        "heals": 0,
+        "first_seen": 1788492276.277,
+        "last_seen": 1788492347.036,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 10,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "Chomp",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 51,
+            "min_hit": 11,
+            "max_hit": 14
+          },
+          {
+            "name": "bites",
+            "school": null,
+            "count": 7,
+            "crits": 0,
+            "misses": 0,
+            "total": 36,
+            "min_hit": 2,
+            "max_hit": 8
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 109,
+        "total_healing": 0,
+        "hits": 18,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492277.638,
+        "last_seen": 1788492348.452,
+        "abilities": [
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 7,
+            "crits": 0,
+            "misses": 0,
+            "total": 44,
+            "min_hit": 3,
+            "max_hit": 11
+          },
+          {
+            "name": "slash",
+            "school": null,
+            "count": 11,
+            "crits": 0,
+            "misses": 0,
+            "total": 65,
+            "min_hit": 2,
+            "max_hit": 11
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a rotting skeleton",
+        "total_damage": 13,
+        "total_healing": 0,
+        "hits": 5,
+        "crits": 0,
+        "misses": 6,
+        "heals": 0,
+        "first_seen": 1788492301.675,
+        "last_seen": 1788492347.036,
+        "abilities": [
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "hit",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 6,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "hits",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 11,
+            "min_hit": 2,
+            "max_hit": 4
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 36,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 6,
+        "first_seen": 1788492281.717,
+        "last_seen": 1788492345.417,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Weak Heal",
+            "school": null,
+            "count": 6,
+            "crits": 0,
+            "misses": 0,
+            "total": 36,
+            "min_hit": 6,
+            "max_hit": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788492253.917,
+    "end_time": 1788492264.255,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 41,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492253.917,
+        "last_seen": 1788492262.791,
+        "abilities": [
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 5,
+            "min_hit": 5,
+            "max_hit": 5
+          },
+          {
+            "name": "shoot",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 36,
+            "min_hit": 18,
+            "max_hit": 18
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788492189.531,
+    "end_time": 1788492239.409,
+    "actors": [
+      {
+        "name": "Vaxir",
+        "total_damage": 5,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492189.531,
+        "last_seen": 1788492189.531,
+        "abilities": [
+          {
+            "name": "Spirit Bane",
+            "school": "Magic",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 5,
+            "min_hit": 5,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a dunes scarab",
+        "total_damage": 6,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 6,
+        "heals": 0,
+        "first_seen": 1788492207.172,
+        "last_seen": 1788492232.67,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 6,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 6,
+            "min_hit": 6,
+            "max_hit": 6
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 68,
+        "total_healing": 0,
+        "hits": 9,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492207.172,
+        "last_seen": 1788492239.409,
+        "abilities": [
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 25,
+            "min_hit": 4,
+            "max_hit": 11
+          },
+          {
+            "name": "slash",
+            "school": null,
+            "count": 5,
+            "crits": 0,
+            "misses": 0,
+            "total": 43,
+            "min_hit": 2,
+            "max_hit": 12
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788492161.382,
+    "end_time": 1788492187.979,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 55,
+        "total_healing": 0,
+        "hits": 8,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492161.382,
+        "last_seen": 1788492187.979,
+        "abilities": [
+          {
+            "name": "slash",
+            "school": null,
+            "count": 5,
+            "crits": 0,
+            "misses": 0,
+            "total": 38,
+            "min_hit": 2,
+            "max_hit": 12
+          },
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 17,
+            "min_hit": 3,
+            "max_hit": 9
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a crocodile hatchling",
+        "total_damage": 13,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492161.382,
+        "last_seen": 1788492172.394,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 13,
+            "min_hit": 6,
+            "max_hit": 7
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Vaxir",
+        "total_damage": 5,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492173.936,
+        "last_seen": 1788492173.936,
+        "abilities": [
+          {
+            "name": "Spirit Bane",
+            "school": "Magic",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 5,
+            "min_hit": 5,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a large rat",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1788492185.019,
+        "last_seen": 1788492187.979,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 6,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 1,
+        "first_seen": 1788492161.382,
+        "last_seen": 1788492161.382,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Weak Heal",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 6,
+            "min_hit": 6,
+            "max_hit": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788492087.615,
+    "end_time": 1788492161.382,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 110,
+        "total_healing": 0,
+        "hits": 17,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492091.86,
+        "last_seen": 1788492161.382,
+        "abilities": [
+          {
+            "name": "slash",
+            "school": null,
+            "count": 11,
+            "crits": 0,
+            "misses": 0,
+            "total": 82,
+            "min_hit": 2,
+            "max_hit": 12
+          },
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 6,
+            "crits": 0,
+            "misses": 0,
+            "total": 28,
+            "min_hit": 3,
+            "max_hit": 7
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a crocodile hatchling",
+        "total_damage": 52,
+        "total_healing": 0,
+        "hits": 9,
+        "crits": 0,
+        "misses": 9,
+        "heals": 0,
+        "first_seen": 1788492091.86,
+        "last_seen": 1788492149.548,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 9,
+            "crits": 0,
+            "misses": 0,
+            "total": 52,
+            "min_hit": 2,
+            "max_hit": 8
+          },
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 9,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Shapebeast",
+        "total_damage": 10,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492116.504,
+        "last_seen": 1788492117.932,
+        "abilities": [
+          {
+            "name": "Rend",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 10,
+            "min_hit": 5,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 24,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 4,
+        "first_seen": 1788492122.097,
+        "last_seen": 1788492146.701,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Weak Heal",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 24,
+            "min_hit": 6,
+            "max_hit": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788489480.914,
+    "end_time": 1788489506.947,
+    "actors": [
+      {
+        "name": "Urg",
+        "total_damage": 8,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788489490.399,
+        "last_seen": 1788489490.399,
+        "abilities": [
+          {
+            "name": "crushes",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 8,
+            "min_hit": 8,
+            "max_hit": 8
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 19,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788489503.578,
+        "last_seen": 1788489505.921,
+        "abilities": [
+          {
+            "name": "slash",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 12,
+            "min_hit": 12,
+            "max_hit": 12
+          },
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 7,
+            "min_hit": 7,
+            "max_hit": 7
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "Urg",
+        "total_damage": 0,
+        "total_healing": 16,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 1,
+        "first_seen": 1788489480.914,
+        "last_seen": 1788489480.914,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Minor Spirit Mending",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 16,
+            "min_hit": 16,
+            "max_hit": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788489311.114,
+    "end_time": 1788489316.062,
+    "actors": [
+      {
+        "name": "Shellyskelly",
+        "total_damage": 16,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788489311.114,
+        "last_seen": 1788489311.114,
+        "abilities": [
+          {
+            "name": "slashes",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 14,
+            "min_hit": 14,
+            "max_hit": 14
+          },
+          {
+            "name": "Noxious Deluge",
+            "school": "Poison",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 44,
+        "total_healing": 0,
+        "hits": 5,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788489311.114,
+        "last_seen": 1788489316.062,
+        "abilities": [
+          {
+            "name": "slash",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 30,
+            "min_hit": 7,
+            "max_hit": 12
+          },
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 14,
+            "min_hit": 7,
+            "max_hit": 7
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a fire beetle",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1788489311.114,
+        "last_seen": 1788489311.114,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Vabantik",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788489311.114,
+        "last_seen": 1788489311.114,
+        "abilities": [
+          {
+            "name": "hits",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788489295.127,
+    "end_time": 1788489311.114,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 39,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788489295.127,
+        "last_seen": 1788489298.809,
+        "abilities": [
+          {
+            "name": "shoot",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 28,
+            "min_hit": 14,
+            "max_hit": 14
+          },
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 11,
+            "min_hit": 11,
+            "max_hit": 11
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Shellyskelly",
+        "total_damage": 11,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788489296.253,
+        "last_seen": 1788489311.114,
+        "abilities": [
+          {
+            "name": "Noxious Deluge",
+            "school": "Poison",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "slashes",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 9,
+            "min_hit": 9,
+            "max_hit": 9
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788489127.389,
+    "end_time": 1788489127.389,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 10,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788489127.389,
+        "last_seen": 1788489127.389,
+        "abilities": [
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 10,
+            "min_hit": 10,
+            "max_hit": 10
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788489079.785,
+    "end_time": 1788489127.389,
+    "actors": [
+      {
+        "name": "a large dunes bat",
+        "total_damage": 4,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 7,
+        "heals": 0,
+        "first_seen": 1788489079.785,
+        "last_seen": 1788489126.242,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 7,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 94,
+        "total_healing": 0,
+        "hits": 15,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788489079.785,
+        "last_seen": 1788489126.242,
+        "abilities": [
+          {
+            "name": "slash",
+            "school": null,
+            "count": 11,
+            "crits": 0,
+            "misses": 0,
+            "total": 70,
+            "min_hit": 2,
+            "max_hit": 11
+          },
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 24,
+            "min_hit": 3,
+            "max_hit": 9
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a jackal pup",
+        "total_damage": 3,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788489113.508,
+        "last_seen": 1788489113.508,
+        "abilities": [
+          {
+            "name": "Chomp",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 3,
+            "min_hit": 3,
+            "max_hit": 3
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Itsokillhealyou",
+        "total_damage": 16,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788489126.242,
+        "last_seen": 1788489126.242,
+        "abilities": [
+          {
+            "name": "Holy Strike",
+            "school": "Holy",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 16,
+            "min_hit": 16,
+            "max_hit": 16
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Saitahma",
+        "total_damage": 10,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788489126.242,
+        "last_seen": 1788489126.242,
+        "abilities": [
+          {
+            "name": "Round Kick",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 10,
+            "min_hit": 10,
+            "max_hit": 10
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788489037.183,
+    "end_time": 1788489079.785,
+    "actors": [
+      {
+        "name": "a large dunes bat",
+        "total_damage": 0,
+        "total_healing": 0,
+        "hits": 0,
+        "crits": 0,
+        "misses": 3,
+        "heals": 0,
+        "first_seen": 1788489053.028,
+        "last_seen": 1788489059.412,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 3,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 72,
+        "total_healing": 0,
+        "hits": 9,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788489057.187,
+        "last_seen": 1788489079.785,
+        "abilities": [
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 7,
+            "min_hit": 7,
+            "max_hit": 7
+          },
+          {
+            "name": "slash",
+            "school": null,
+            "count": 8,
+            "crits": 0,
+            "misses": 0,
+            "total": 65,
+            "min_hit": 4,
+            "max_hit": 12
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "by_ability": {
+    "shoot": 18,
+    "Strike": 11,
+    "slash": 12
+  },
+  "by_damage_type": {
+    "melee": 18
+  }
+}

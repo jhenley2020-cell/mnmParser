@@ -1,0 +1,1837 @@
+[
+  {
+    "start_time": 1789433108.672,
+    "end_time": 1789433124.779,
+    "actors": [
+      {
+        "name": "a juvenile snake",
+        "total_damage": 5,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1789433108.672,
+        "last_seen": 1789433111.788,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "Kick",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 1,
+            "min_hit": 1,
+            "max_hit": 1
+          },
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 31,
+        "total_healing": 0,
+        "hits": 9,
+        "crits": 0,
+        "misses": 4,
+        "heals": 0,
+        "first_seen": 1789433108.672,
+        "last_seen": 1789433114.655,
+        "abilities": [
+          {
+            "name": "Elemental Flash (Water)",
+            "school": "Cold",
+            "count": 4,
+            "crits": 0,
+            "misses": 1,
+            "total": 12,
+            "min_hit": 3,
+            "max_hit": 3
+          },
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 3,
+            "total": 13,
+            "min_hit": 3,
+            "max_hit": 6
+          },
+          {
+            "name": "Elemental Flash",
+            "school": "Magic",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 6,
+            "min_hit": 3,
+            "max_hit": 3
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Revanche",
+        "total_damage": 10,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433108.672,
+        "last_seen": 1789433108.672,
+        "abilities": [
+          {
+            "name": "Damage Shield",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 10,
+            "min_hit": 5,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Rebel",
+        "total_damage": 0,
+        "total_healing": 0,
+        "hits": 0,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1789433108.672,
+        "last_seen": 1789433108.672,
+        "abilities": [
+          {
+            "name": "crush",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Yongle",
+        "total_damage": 18,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433108.672,
+        "last_seen": 1789433110.274,
+        "abilities": [
+          {
+            "name": "Damage Shield",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 15,
+            "min_hit": 15,
+            "max_hit": 15
+          },
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 3,
+            "min_hit": 3,
+            "max_hit": 3
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a decayed skeleton",
+        "total_damage": 3,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433108.672,
+        "last_seen": 1789433108.672,
+        "abilities": [
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 1,
+            "min_hit": 1,
+            "max_hit": 1
+          },
+          {
+            "name": "hits",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Cardinalfang",
+        "total_damage": 8,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433108.672,
+        "last_seen": 1789433114.655,
+        "abilities": [
+          {
+            "name": "Distress",
+            "school": "Magic",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 5,
+            "min_hit": 5,
+            "max_hit": 5
+          },
+          {
+            "name": "pierces",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 3,
+            "min_hit": 3,
+            "max_hit": 3
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a deep beetle",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433110.274,
+        "last_seen": 1789433110.274,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Celestus",
+        "total_damage": 11,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433110.274,
+        "last_seen": 1789433110.274,
+        "abilities": [
+          {
+            "name": "Holy Strike",
+            "school": "Holy",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 11,
+            "min_hit": 11,
+            "max_hit": 11
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a cave myconid",
+        "total_damage": 9,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433110.274,
+        "last_seen": 1789433113.206,
+        "abilities": [
+          {
+            "name": "hits",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 9,
+            "min_hit": 3,
+            "max_hit": 6
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Darma",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433110.274,
+        "last_seen": 1789433110.274,
+        "abilities": [
+          {
+            "name": "crushes",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Your pet Rebel",
+        "total_damage": 3,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433111.788,
+        "last_seen": 1789433111.788,
+        "abilities": [
+          {
+            "name": "crushes",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 3,
+            "min_hit": 3,
+            "max_hit": 3
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Delrakee",
+        "total_damage": 6,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433114.655,
+        "last_seen": 1789433114.655,
+        "abilities": [
+          {
+            "name": "Censuring Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 6,
+            "min_hit": 6,
+            "max_hit": 6
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1789433108.672,
+    "end_time": 1789433108.672,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 3,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 3,
+        "heals": 0,
+        "first_seen": 1789433108.672,
+        "last_seen": 1789433108.672,
+        "abilities": [
+          {
+            "name": "Elemental Flash (Water)",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 2,
+            "total": 3,
+            "min_hit": 1,
+            "max_hit": 1
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a cave sporeling",
+        "total_damage": 1,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433108.672,
+        "last_seen": 1789433108.672,
+        "abilities": [
+          {
+            "name": "hits",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 1,
+            "min_hit": 1,
+            "max_hit": 1
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1789433035.97,
+    "end_time": 1789433108.672,
+    "actors": [
+      {
+        "name": "a decayed skeleton",
+        "total_damage": 65,
+        "total_healing": 0,
+        "hits": 16,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433035.97,
+        "last_seen": 1789433107.25,
+        "abilities": [
+          {
+            "name": "hits",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 7,
+            "min_hit": 1,
+            "max_hit": 4
+          },
+          {
+            "name": "crushes",
+            "school": null,
+            "count": 12,
+            "crits": 0,
+            "misses": 0,
+            "total": 56,
+            "min_hit": 2,
+            "max_hit": 8
+          },
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Yongle",
+        "total_damage": 60,
+        "total_healing": 0,
+        "hits": 8,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433035.97,
+        "last_seen": 1789433080.571,
+        "abilities": [
+          {
+            "name": "Damage Shield",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 15,
+            "min_hit": 15,
+            "max_hit": 15
+          },
+          {
+            "name": "slashes",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 18,
+            "min_hit": 2,
+            "max_hit": 12
+          },
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 27,
+            "min_hit": 3,
+            "max_hit": 11
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a cave myconid",
+        "total_damage": 33,
+        "total_healing": 0,
+        "hits": 6,
+        "crits": 0,
+        "misses": 2,
+        "heals": 0,
+        "first_seen": 1789433035.97,
+        "last_seen": 1789433108.672,
+        "abilities": [
+          {
+            "name": "hits",
+            "school": null,
+            "count": 6,
+            "crits": 0,
+            "misses": 0,
+            "total": 33,
+            "min_hit": 2,
+            "max_hit": 8
+          },
+          {
+            "name": "hit",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 2,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 87,
+        "total_healing": 0,
+        "hits": 23,
+        "crits": 0,
+        "misses": 3,
+        "heals": 0,
+        "first_seen": 1789433035.97,
+        "last_seen": 1789433108.672,
+        "abilities": [
+          {
+            "name": "Elemental Flash (Water)",
+            "school": "Cold",
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 12,
+            "min_hit": 3,
+            "max_hit": 3
+          },
+          {
+            "name": "Elemental Flash",
+            "school": "Magic",
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 12,
+            "min_hit": 3,
+            "max_hit": 3
+          },
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 15,
+            "crits": 0,
+            "misses": 3,
+            "total": 63,
+            "min_hit": 2,
+            "max_hit": 6
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Cardinalfang",
+        "total_damage": 36,
+        "total_healing": 0,
+        "hits": 5,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433035.97,
+        "last_seen": 1789433102.789,
+        "abilities": [
+          {
+            "name": "Distress",
+            "school": "Magic",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 10,
+            "min_hit": 5,
+            "max_hit": 5
+          },
+          {
+            "name": "Censuring Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 9,
+            "min_hit": 9,
+            "max_hit": 9
+          },
+          {
+            "name": "pierces",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 17,
+            "min_hit": 4,
+            "max_hit": 13
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Your pet Nautila",
+        "total_damage": 23,
+        "total_healing": 0,
+        "hits": 7,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433035.97,
+        "last_seen": 1789433107.25,
+        "abilities": [
+          {
+            "name": "crushes",
+            "school": null,
+            "count": 7,
+            "crits": 0,
+            "misses": 0,
+            "total": 23,
+            "min_hit": 1,
+            "max_hit": 6
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Celestus",
+        "total_damage": 177,
+        "total_healing": 0,
+        "hits": 12,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433035.97,
+        "last_seen": 1789433090.244,
+        "abilities": [
+          {
+            "name": "Righteous Strike",
+            "school": "Holy",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 74,
+            "min_hit": 37,
+            "max_hit": 37
+          },
+          {
+            "name": "crushes",
+            "school": null,
+            "count": 7,
+            "crits": 0,
+            "misses": 0,
+            "total": 70,
+            "min_hit": 2,
+            "max_hit": 18
+          },
+          {
+            "name": "Holy Strike",
+            "school": "Holy",
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 33,
+            "min_hit": 11,
+            "max_hit": 11
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Darma",
+        "total_damage": 49,
+        "total_healing": 0,
+        "hits": 8,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433035.97,
+        "last_seen": 1789433107.25,
+        "abilities": [
+          {
+            "name": "crushes",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 21,
+            "min_hit": 4,
+            "max_hit": 8
+          },
+          {
+            "name": "Holy Strike",
+            "school": "Holy",
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 24,
+            "min_hit": 8,
+            "max_hit": 8
+          },
+          {
+            "name": "Rebuke",
+            "school": "Holy",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "an enslaved dwarf",
+        "total_damage": 197,
+        "total_healing": 0,
+        "hits": 7,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433035.97,
+        "last_seen": 1789433063.962,
+        "abilities": [
+          {
+            "name": "hits",
+            "school": null,
+            "count": 7,
+            "crits": 0,
+            "misses": 0,
+            "total": 197,
+            "min_hit": 11,
+            "max_hit": 32
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a juvenile snake",
+        "total_damage": 67,
+        "total_healing": 0,
+        "hits": 18,
+        "crits": 0,
+        "misses": 2,
+        "heals": 0,
+        "first_seen": 1789433041.647,
+        "last_seen": 1789433108.672,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 15,
+            "crits": 0,
+            "misses": 0,
+            "total": 62,
+            "min_hit": 2,
+            "max_hit": 8
+          },
+          {
+            "name": "Kick",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 5,
+            "min_hit": 1,
+            "max_hit": 2
+          },
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 2,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Gelo",
+        "total_damage": 9,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433063.962,
+        "last_seen": 1789433063.962,
+        "abilities": [
+          {
+            "name": "Slam",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 9,
+            "min_hit": 9,
+            "max_hit": 9
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Rebel",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1789433093.755,
+        "last_seen": 1789433093.755,
+        "abilities": [
+          {
+            "name": "Crushing Earth",
+            "school": "Magic",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "crush",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Your pet Rebel",
+        "total_damage": 25,
+        "total_healing": 0,
+        "hits": 7,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433096.846,
+        "last_seen": 1789433107.25,
+        "abilities": [
+          {
+            "name": "crushes",
+            "school": null,
+            "count": 7,
+            "crits": 0,
+            "misses": 0,
+            "total": 25,
+            "min_hit": 1,
+            "max_hit": 6
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Rebel\u0027s Water Bolt",
+        "total_damage": 3,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433102.789,
+        "last_seen": 1789433102.789,
+        "abilities": [
+          {
+            "name": "(melee/unknown)",
+            "school": "Cold",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 3,
+            "min_hit": 3,
+            "max_hit": 3
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Delrakee",
+        "total_damage": 12,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433104.285,
+        "last_seen": 1789433104.285,
+        "abilities": [
+          {
+            "name": "Censuring Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 12,
+            "min_hit": 12,
+            "max_hit": 12
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Nautila",
+        "total_damage": 0,
+        "total_healing": 0,
+        "hits": 0,
+        "crits": 0,
+        "misses": 5,
+        "heals": 0,
+        "first_seen": 1789433107.25,
+        "last_seen": 1789433107.25,
+        "abilities": [
+          {
+            "name": "crush",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 5,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a deep beetle",
+        "total_damage": 0,
+        "total_healing": 0,
+        "hits": 0,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1789433107.25,
+        "last_seen": 1789433107.25,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a cave sporeling",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1789433108.672,
+        "last_seen": 1789433108.672,
+        "abilities": [
+          {
+            "name": "hits",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "hit",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "Yongle",
+        "total_damage": 0,
+        "total_healing": 6,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 1,
+        "first_seen": 1789433035.97,
+        "last_seen": 1789433035.97,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Weak Heal",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 6,
+            "min_hit": 6,
+            "max_hit": 6
+          }
+        ]
+      },
+      {
+        "name": "Darma",
+        "total_damage": 0,
+        "total_healing": 98,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 7,
+        "first_seen": 1789433065.711,
+        "last_seen": 1789433101.27,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Minor Heal",
+            "school": null,
+            "count": 7,
+            "crits": 0,
+            "misses": 0,
+            "total": 98,
+            "min_hit": 14,
+            "max_hit": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1789433011.054,
+    "end_time": 1789433035.97,
+    "actors": [
+      {
+        "name": "Cardinalfang",
+        "total_damage": 17,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433011.054,
+        "last_seen": 1789433011.054,
+        "abilities": [
+          {
+            "name": "pierces",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 12,
+            "min_hit": 12,
+            "max_hit": 12
+          },
+          {
+            "name": "Censuring Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 5,
+            "min_hit": 5,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a decayed skeleton",
+        "total_damage": 4,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433011.054,
+        "last_seen": 1789433011.054,
+        "abilities": [
+          {
+            "name": "hits",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Celestus",
+        "total_damage": 61,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433011.054,
+        "last_seen": 1789433012.744,
+        "abilities": [
+          {
+            "name": "Holy Strike",
+            "school": "Holy",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 24,
+            "min_hit": 11,
+            "max_hit": 13
+          },
+          {
+            "name": "Righteous Strike",
+            "school": "Holy",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 37,
+            "min_hit": 37,
+            "max_hit": 37
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "an enslaved dwarf",
+        "total_damage": 32,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433011.054,
+        "last_seen": 1789433011.054,
+        "abilities": [
+          {
+            "name": "hits",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 32,
+            "min_hit": 32,
+            "max_hit": 32
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Your pet Nautila",
+        "total_damage": 5,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433012.744,
+        "last_seen": 1789433012.744,
+        "abilities": [
+          {
+            "name": "crushes",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 5,
+            "min_hit": 5,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Yongle",
+        "total_damage": 31,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433016.552,
+        "last_seen": 1789433035.97,
+        "abilities": [
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 5,
+            "min_hit": 5,
+            "max_hit": 5
+          },
+          {
+            "name": "Damage Shield",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 15,
+            "min_hit": 15,
+            "max_hit": 15
+          },
+          {
+            "name": "slashes",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 11,
+            "min_hit": 11,
+            "max_hit": 11
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a cave myconid",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789433021.776,
+        "last_seen": 1789433021.776,
+        "abilities": [
+          {
+            "name": "hits",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1789432945.324,
+    "end_time": 1789433009.237,
+    "actors": [
+      {
+        "name": "Revanche",
+        "total_damage": 25,
+        "total_healing": 0,
+        "hits": 4,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789432945.324,
+        "last_seen": 1789432950.832,
+        "abilities": [
+          {
+            "name": "Damage Shield",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 10,
+            "min_hit": 5,
+            "max_hit": 5
+          },
+          {
+            "name": "Censuring Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 10,
+            "min_hit": 10,
+            "max_hit": 10
+          },
+          {
+            "name": "Distress",
+            "school": "Magic",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 5,
+            "min_hit": 5,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a cave myconid",
+        "total_damage": 53,
+        "total_healing": 0,
+        "hits": 9,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789432945.324,
+        "last_seen": 1789432989.99,
+        "abilities": [
+          {
+            "name": "hits",
+            "school": null,
+            "count": 9,
+            "crits": 0,
+            "misses": 0,
+            "total": 53,
+            "min_hit": 2,
+            "max_hit": 8
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 68,
+        "total_healing": 0,
+        "hits": 20,
+        "crits": 0,
+        "misses": 2,
+        "heals": 0,
+        "first_seen": 1789432957.592,
+        "last_seen": 1789433009.237,
+        "abilities": [
+          {
+            "name": "Elemental Flash",
+            "school": "Magic",
+            "count": 6,
+            "crits": 0,
+            "misses": 0,
+            "total": 18,
+            "min_hit": 3,
+            "max_hit": 3
+          },
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 10,
+            "crits": 0,
+            "misses": 2,
+            "total": 38,
+            "min_hit": 1,
+            "max_hit": 6
+          },
+          {
+            "name": "Elemental Flash (Water)",
+            "school": "Cold",
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 12,
+            "min_hit": 3,
+            "max_hit": 3
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Celestus",
+        "total_damage": 166,
+        "total_healing": 0,
+        "hits": 11,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789432957.592,
+        "last_seen": 1789433007.469,
+        "abilities": [
+          {
+            "name": "Rebuke II",
+            "school": "Holy",
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 52,
+            "min_hit": 13,
+            "max_hit": 13
+          },
+          {
+            "name": "Holy Strike",
+            "school": "Holy",
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 38,
+            "min_hit": 12,
+            "max_hit": 13
+          },
+          {
+            "name": "crushes",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 39,
+            "min_hit": 12,
+            "max_hit": 14
+          },
+          {
+            "name": "Righteous Strike",
+            "school": "Holy",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 37,
+            "min_hit": 37,
+            "max_hit": 37
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "an enslaved dwarf",
+        "total_damage": 80,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789432957.592,
+        "last_seen": 1789432989.99,
+        "abilities": [
+          {
+            "name": "hits",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 80,
+            "min_hit": 16,
+            "max_hit": 32
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Nautila",
+        "total_damage": 4,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 5,
+        "heals": 0,
+        "first_seen": 1789432957.592,
+        "last_seen": 1789433007.469,
+        "abilities": [
+          {
+            "name": "crush",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 5,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "Crushing Earth",
+            "school": "Magic",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Nautila\u0027s Companion Strike (Water)",
+        "total_damage": 14,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789432959.443,
+        "last_seen": 1789433007.469,
+        "abilities": [
+          {
+            "name": "(melee/unknown)",
+            "school": "Water",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 14,
+            "min_hit": 7,
+            "max_hit": 7
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Nautila\u0027s Water Bolt",
+        "total_damage": 15,
+        "total_healing": 0,
+        "hits": 5,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789432961.211,
+        "last_seen": 1789433007.469,
+        "abilities": [
+          {
+            "name": "(melee/unknown)",
+            "school": "Cold",
+            "count": 5,
+            "crits": 0,
+            "misses": 0,
+            "total": 15,
+            "min_hit": 3,
+            "max_hit": 3
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a juvenile snake",
+        "total_damage": 10,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 2,
+        "heals": 0,
+        "first_seen": 1789432963.359,
+        "last_seen": 1789432989.99,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 10,
+            "min_hit": 2,
+            "max_hit": 6
+          },
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 2,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Cardinalfang",
+        "total_damage": 70,
+        "total_healing": 0,
+        "hits": 7,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789432965.06,
+        "last_seen": 1789432989.99,
+        "abilities": [
+          {
+            "name": "Censuring Strike",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 16,
+            "min_hit": 8,
+            "max_hit": 8
+          },
+          {
+            "name": "pierces",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 49,
+            "min_hit": 10,
+            "max_hit": 14
+          },
+          {
+            "name": "Distress",
+            "school": "Magic",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 5,
+            "min_hit": 5,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Your pet Nautila",
+        "total_damage": 24,
+        "total_healing": 0,
+        "hits": 5,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789432966.801,
+        "last_seen": 1789433009.237,
+        "abilities": [
+          {
+            "name": "crushes",
+            "school": null,
+            "count": 5,
+            "crits": 0,
+            "misses": 0,
+            "total": 24,
+            "min_hit": 2,
+            "max_hit": 6
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a deep beetle",
+        "total_damage": 18,
+        "total_healing": 0,
+        "hits": 5,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789432968.462,
+        "last_seen": 1789432989.99,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 5,
+            "crits": 0,
+            "misses": 0,
+            "total": 18,
+            "min_hit": 2,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Yongle",
+        "total_damage": 58,
+        "total_healing": 0,
+        "hits": 5,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1789432968.462,
+        "last_seen": 1789432989.99,
+        "abilities": [
+          {
+            "name": "Damage Shield",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 45,
+            "min_hit": 15,
+            "max_hit": 15
+          },
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 13,
+            "min_hit": 6,
+            "max_hit": 7
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a decayed skeleton",
+        "total_damage": 11,
+        "total_healing": 0,
+        "hits": 4,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1789432991.987,
+        "last_seen": 1789433003.979,
+        "abilities": [
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 1,
+            "min_hit": 1,
+            "max_hit": 1
+          },
+          {
+            "name": "hits",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 10,
+            "min_hit": 2,
+            "max_hit": 4
+          },
+          {
+            "name": "hit",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "Yongle",
+        "total_damage": 0,
+        "total_healing": 18,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 3,
+        "first_seen": 1789432998.758,
+        "last_seen": 1789433007.469,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Weak Heal",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 18,
+            "min_hit": 6,
+            "max_hit": 6
+          }
+        ]
+      }
+    ]
+  }
+]

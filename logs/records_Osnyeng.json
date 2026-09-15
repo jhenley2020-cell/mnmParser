@@ -1,0 +1,14 @@
+{
+  "by_ability": {
+    "Life Drain": 4,
+    "slash": 8,
+    "pet Xibanab": 4,
+    "pet Rebel": 4,
+    "Noxious Deluge": 5
+  },
+  "by_damage_type": {
+    "Corruption": 4,
+    "melee": 8,
+    "Poison": 5
+  }
+}

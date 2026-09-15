@@ -1,0 +1,1856 @@
+[
+  {
+    "start_time": 1788488434.023,
+    "end_time": 1788488434.023,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 5,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788488434.023,
+        "last_seen": 1788488434.023,
+        "abilities": [
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 5,
+            "min_hit": 5,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a young crypt scarab",
+        "total_damage": 0,
+        "total_healing": 0,
+        "hits": 0,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1788488434.023,
+        "last_seen": 1788488434.023,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788488411.934,
+    "end_time": 1788488434.023,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 53,
+        "total_healing": 0,
+        "hits": 7,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788488412.974,
+        "last_seen": 1788488434.023,
+        "abilities": [
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 5,
+            "crits": 0,
+            "misses": 0,
+            "total": 38,
+            "min_hit": 4,
+            "max_hit": 12
+          },
+          {
+            "name": "Life Drain",
+            "school": "Corruption",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          },
+          {
+            "name": "Slam",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 11,
+            "min_hit": 11,
+            "max_hit": 11
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a young crypt scarab",
+        "total_damage": 4,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1788488416.267,
+        "last_seen": 1788488422.877,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          },
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 4,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 1,
+        "first_seen": 1788488415.152,
+        "last_seen": 1788488415.152,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Life Drain",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788488167.948,
+    "end_time": 1788488242.271,
+    "actors": [
+      {
+        "name": "a cemetery rat",
+        "total_damage": 17,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788488167.948,
+        "last_seen": 1788488189.007,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 17,
+            "min_hit": 7,
+            "max_hit": 10
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Burn",
+        "total_damage": 143,
+        "total_healing": 0,
+        "hits": 10,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788488182.563,
+        "last_seen": 1788488242.271,
+        "abilities": [
+          {
+            "name": "pierces",
+            "school": null,
+            "count": 5,
+            "crits": 0,
+            "misses": 0,
+            "total": 56,
+            "min_hit": 8,
+            "max_hit": 14
+          },
+          {
+            "name": "Damage Shield",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 75,
+            "min_hit": 25,
+            "max_hit": 25
+          },
+          {
+            "name": "Blast of Earth",
+            "school": "Magic",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 12,
+            "min_hit": 6,
+            "max_hit": 6
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a large dunes bat",
+        "total_damage": 8,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788488186.834,
+        "last_seen": 1788488186.834,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 8,
+            "min_hit": 2,
+            "max_hit": 6
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Doggx",
+        "total_damage": 4,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788488192.461,
+        "last_seen": 1788488192.461,
+        "abilities": [
+          {
+            "name": "Censuring Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788488082.941,
+    "end_time": 1788488138.295,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 51,
+        "total_healing": 0,
+        "hits": 7,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788488082.941,
+        "last_seen": 1788488138.295,
+        "abilities": [
+          {
+            "name": "Slam",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 7,
+            "min_hit": 3,
+            "max_hit": 4
+          },
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 40,
+            "min_hit": 4,
+            "max_hit": 12
+          },
+          {
+            "name": "Life Drain",
+            "school": "Corruption",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a grave robber",
+        "total_damage": 5,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788488090.649,
+        "last_seen": 1788488090.649,
+        "abilities": [
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 5,
+            "min_hit": 5,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Dooti",
+        "total_damage": 242,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788488093.854,
+        "last_seen": 1788488093.854,
+        "abilities": [
+          {
+            "name": "Righteous Strike",
+            "school": "Holy",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 224,
+            "min_hit": 224,
+            "max_hit": 224
+          },
+          {
+            "name": "Holy Strike",
+            "school": "Holy",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 18,
+            "min_hit": 18,
+            "max_hit": 18
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Imotep",
+        "total_damage": 126,
+        "total_healing": 0,
+        "hits": 6,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788488093.854,
+        "last_seen": 1788488113.153,
+        "abilities": [
+          {
+            "name": "Point Blank II",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 16,
+            "min_hit": 16,
+            "max_hit": 16
+          },
+          {
+            "name": "Barbed Arrow II",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 12,
+            "min_hit": 12,
+            "max_hit": 12
+          },
+          {
+            "name": "pierces",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 57,
+            "min_hit": 21,
+            "max_hit": 36
+          },
+          {
+            "name": "Strafing Barrage",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 41,
+            "min_hit": 19,
+            "max_hit": 22
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a rotting skeleton",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1788488130.748,
+        "last_seen": 1788488136.084,
+        "abilities": [
+          {
+            "name": "Strike",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "hit",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 4,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 1,
+        "first_seen": 1788488135.01,
+        "last_seen": 1788488135.01,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Life Drain",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788488057.588,
+    "end_time": 1788488082.941,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 53,
+        "total_healing": 0,
+        "hits": 9,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788488057.588,
+        "last_seen": 1788488078.418,
+        "abilities": [
+          {
+            "name": "Vampirism",
+            "school": "Corruption",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 27,
+            "min_hit": 2,
+            "max_hit": 10
+          },
+          {
+            "name": "Slam",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 18,
+            "min_hit": 7,
+            "max_hit": 11
+          },
+          {
+            "name": "Life Drain",
+            "school": "Corruption",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a spiderling",
+        "total_damage": 4,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788488068.032,
+        "last_seen": 1788488072.874,
+        "abilities": [
+          {
+            "name": "hits",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 8,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 3,
+        "first_seen": 1788488057.588,
+        "last_seen": 1788488075.114,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Vampirism",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "Life Drain",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788487841.975,
+    "end_time": 1788487902.883,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 55,
+        "total_healing": 0,
+        "hits": 9,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788487841.975,
+        "last_seen": 1788487901.851,
+        "abilities": [
+          {
+            "name": "Vampirism",
+            "school": "Corruption",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 29,
+            "min_hit": 5,
+            "max_hit": 12
+          },
+          {
+            "name": "Noxious Deluge",
+            "school": "Poison",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 7,
+            "min_hit": 2,
+            "max_hit": 5
+          },
+          {
+            "name": "Slam",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 11,
+            "min_hit": 11,
+            "max_hit": 11
+          },
+          {
+            "name": "Life Drain",
+            "school": "Corruption",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a fire beetle",
+        "total_damage": 8,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1788487884.774,
+        "last_seen": 1788487901.851,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "bites",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 8,
+            "min_hit": 2,
+            "max_hit": 3
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 8,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 3,
+        "first_seen": 1788487841.975,
+        "last_seen": 1788487900.837,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Vampirism",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "Life Drain",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788487782.144,
+    "end_time": 1788487841.975,
+    "actors": [
+      {
+        "name": "a large dunes bat",
+        "total_damage": 38,
+        "total_healing": 0,
+        "hits": 13,
+        "crits": 0,
+        "misses": 3,
+        "heals": 0,
+        "first_seen": 1788487782.144,
+        "last_seen": 1788487839.581,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 13,
+            "crits": 0,
+            "misses": 0,
+            "total": 38,
+            "min_hit": 2,
+            "max_hit": 4
+          },
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 3,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 99,
+        "total_healing": 0,
+        "hits": 18,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788487785.122,
+        "last_seen": 1788487841.975,
+        "abilities": [
+          {
+            "name": "Slam",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 24,
+            "min_hit": 3,
+            "max_hit": 11
+          },
+          {
+            "name": "Vampirism",
+            "school": "Corruption",
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 6,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 10,
+            "crits": 0,
+            "misses": 0,
+            "total": 65,
+            "min_hit": 2,
+            "max_hit": 12
+          },
+          {
+            "name": "Life Drain",
+            "school": "Corruption",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 10,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 4,
+        "first_seen": 1788487794.006,
+        "last_seen": 1788487839.581,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Vampirism",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 6,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "Life Drain",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788483204.992,
+    "end_time": 1788483258.685,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 107,
+        "total_healing": 0,
+        "hits": 19,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788483204.992,
+        "last_seen": 1788483258.685,
+        "abilities": [
+          {
+            "name": "Slam",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 10,
+            "min_hit": 3,
+            "max_hit": 4
+          },
+          {
+            "name": "Noxious Deluge",
+            "school": "Poison",
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 11,
+            "min_hit": 2,
+            "max_hit": 5
+          },
+          {
+            "name": "Life Drain",
+            "school": "Corruption",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 8,
+            "min_hit": 4,
+            "max_hit": 4
+          },
+          {
+            "name": "Vampirism",
+            "school": "Corruption",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 8,
+            "crits": 0,
+            "misses": 0,
+            "total": 74,
+            "min_hit": 2,
+            "max_hit": 12
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a fire beetle",
+        "total_damage": 0,
+        "total_healing": 0,
+        "hits": 0,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1788483204.992,
+        "last_seen": 1788483204.992,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a dunes scarab",
+        "total_damage": 12,
+        "total_healing": 0,
+        "hits": 4,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788483253.508,
+        "last_seen": 1788483254.999,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 12,
+            "min_hit": 2,
+            "max_hit": 4
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 12,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 4,
+        "first_seen": 1788483204.992,
+        "last_seen": 1788483253.508,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Life Drain",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 8,
+            "min_hit": 4,
+            "max_hit": 4
+          },
+          {
+            "name": "Vampirism",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788483160.34,
+    "end_time": 1788483191.232,
+    "actors": [
+      {
+        "name": "a large rat",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1788483160.34,
+        "last_seen": 1788483160.34,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 48,
+        "total_healing": 0,
+        "hits": 9,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788483160.34,
+        "last_seen": 1788483174.262,
+        "abilities": [
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 27,
+            "min_hit": 7,
+            "max_hit": 12
+          },
+          {
+            "name": "Slam",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          },
+          {
+            "name": "Life Drain",
+            "school": "Corruption",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 8,
+            "min_hit": 4,
+            "max_hit": 4
+          },
+          {
+            "name": "Noxious Deluge",
+            "school": "Poison",
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 9,
+            "min_hit": 2,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a fire beetle",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 2,
+        "heals": 0,
+        "first_seen": 1788483174.262,
+        "last_seen": 1788483177.541,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 2,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 8,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 2,
+        "first_seen": 1788483160.34,
+        "last_seen": 1788483175.329,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Life Drain",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 8,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788483089.783,
+    "end_time": 1788483160.34,
+    "actors": [
+      {
+        "name": "Burn",
+        "total_damage": 51,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788483089.783,
+        "last_seen": 1788483116.797,
+        "abilities": [
+          {
+            "name": "Fireburst",
+            "school": "Fire",
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 51,
+            "min_hit": 17,
+            "max_hit": 17
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788402287.89,
+    "end_time": 1788402327.157,
+    "actors": [
+      {
+        "name": "a young crypt scarab",
+        "total_damage": 17,
+        "total_healing": 0,
+        "hits": 5,
+        "crits": 0,
+        "misses": 3,
+        "heals": 0,
+        "first_seen": 1788402287.89,
+        "last_seen": 1788402327.157,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 5,
+            "crits": 0,
+            "misses": 0,
+            "total": 17,
+            "min_hit": 2,
+            "max_hit": 4
+          },
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 3,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 54,
+        "total_healing": 0,
+        "hits": 12,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788402295.928,
+        "last_seen": 1788402327.157,
+        "abilities": [
+          {
+            "name": "Noxious Deluge",
+            "school": "Poison",
+            "count": 6,
+            "crits": 0,
+            "misses": 0,
+            "total": 18,
+            "min_hit": 2,
+            "max_hit": 5
+          },
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 5,
+            "crits": 0,
+            "misses": 0,
+            "total": 26,
+            "min_hit": 2,
+            "max_hit": 11
+          },
+          {
+            "name": "Slam",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 10,
+            "min_hit": 10,
+            "max_hit": 10
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 1,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 1,
+        "first_seen": 1788402314.78,
+        "last_seen": 1788402314.78,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Vampirism",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 1,
+            "min_hit": 1,
+            "max_hit": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788402269.556,
+    "end_time": 1788402286.774,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 42,
+        "total_healing": 0,
+        "hits": 6,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1788402269.556,
+        "last_seen": 1788402285.773,
+        "abilities": [
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 31,
+            "min_hit": 3,
+            "max_hit": 12
+          },
+          {
+            "name": "Slam",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 9,
+            "min_hit": 9,
+            "max_hit": 9
+          },
+          {
+            "name": "Vampirism",
+            "school": "Corruption",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "Aura of Vampirism",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a large rat",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 3,
+        "heals": 0,
+        "first_seen": 1788402269.556,
+        "last_seen": 1788402282.769,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 3,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a young crypt scarab",
+        "total_damage": 4,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788402281.776,
+        "last_seen": 1788402282.769,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 2,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 1,
+        "first_seen": 1788402281.776,
+        "last_seen": 1788402281.776,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Vampirism",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788402248.446,
+    "end_time": 1788402265.118,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 47,
+        "total_healing": 0,
+        "hits": 4,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788402248.446,
+        "last_seen": 1788402265.118,
+        "abilities": [
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 47,
+            "min_hit": 11,
+            "max_hit": 12
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a desert bat",
+        "total_damage": 3,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788402254.272,
+        "last_seen": 1788402254.272,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 3,
+            "min_hit": 3,
+            "max_hit": 3
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788402124.515,
+    "end_time": 1788402130.143,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 12,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788402124.515,
+        "last_seen": 1788402124.515,
+        "abilities": [
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 12,
+            "min_hit": 12,
+            "max_hit": 12
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a large rat",
+        "total_damage": 0,
+        "total_healing": 0,
+        "hits": 0,
+        "crits": 0,
+        "misses": 2,
+        "heals": 0,
+        "first_seen": 1788402124.515,
+        "last_seen": 1788402130.143,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 2,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788402123.643,
+    "end_time": 1788402124.515,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 15,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788402123.643,
+        "last_seen": 1788402123.643,
+        "abilities": [
+          {
+            "name": "Noxious Deluge",
+            "school": "Poison",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 5,
+            "min_hit": 5,
+            "max_hit": 5
+          },
+          {
+            "name": "Slam",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 10,
+            "min_hit": 10,
+            "max_hit": 10
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a large rat",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788402124.515,
+        "last_seen": 1788402124.515,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788397942.833,
+    "end_time": 1788397965.514,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 33,
+        "total_healing": 0,
+        "hits": 8,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788397942.833,
+        "last_seen": 1788397964.2,
+        "abilities": [
+          {
+            "name": "Noxious Deluge",
+            "school": "Poison",
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 11,
+            "min_hit": 2,
+            "max_hit": 5
+          },
+          {
+            "name": "Life Drain",
+            "school": "Corruption",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          },
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 18,
+            "min_hit": 5,
+            "max_hit": 7
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a desert bat",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788397961.359,
+        "last_seen": 1788397961.359,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 4,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 1,
+        "first_seen": 1788397948.062,
+        "last_seen": 1788397948.062,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Life Drain",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788397883.748,
+    "end_time": 1788397889.094,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 34,
+        "total_healing": 0,
+        "hits": 5,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788397883.748,
+        "last_seen": 1788397887.978,
+        "abilities": [
+          {
+            "name": "Noxious Deluge",
+            "school": "Poison",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 7,
+            "min_hit": 2,
+            "max_hit": 5
+          },
+          {
+            "name": "Life Drain",
+            "school": "Corruption",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          },
+          {
+            "name": "pierce",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 12,
+            "min_hit": 12,
+            "max_hit": 12
+          },
+          {
+            "name": "Slam",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 11,
+            "min_hit": 11,
+            "max_hit": 11
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 4,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 1,
+        "first_seen": 1788397883.748,
+        "last_seen": 1788397883.748,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Life Drain",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ]
+      }
+    ]
+  }
+]

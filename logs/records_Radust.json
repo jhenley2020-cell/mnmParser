@@ -1,0 +1,14 @@
+{
+  "by_ability": {
+    "Noxious Deluge": 5,
+    "Slam": 11,
+    "pierce": 12,
+    "Vampirism": 2,
+    "Life Drain": 4
+  },
+  "by_damage_type": {
+    "Poison": 5,
+    "melee": 12,
+    "Corruption": 4
+  }
+}

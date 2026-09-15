@@ -1,0 +1,471 @@
+[
+  {
+    "start_time": 1788492007.844,
+    "end_time": 1788492028.426,
+    "actors": [
+      {
+        "name": "Rebel",
+        "total_damage": 5,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 2,
+        "heals": 0,
+        "first_seen": 1788492007.844,
+        "last_seen": 1788492028.426,
+        "abilities": [
+          {
+            "name": "(melee/unknown)",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 5,
+            "min_hit": 2,
+            "max_hit": 3
+          },
+          {
+            "name": "hit",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 2,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a fire beetle",
+        "total_damage": 9,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492028.426,
+        "last_seen": 1788492028.426,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 9,
+            "min_hit": 2,
+            "max_hit": 4
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 28,
+        "total_healing": 0,
+        "hits": 6,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788492028.426,
+        "last_seen": 1788492028.426,
+        "abilities": [
+          {
+            "name": "Noxious Deluge",
+            "school": "Poison",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          },
+          {
+            "name": "Life Drain",
+            "school": "Corruption",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          },
+          {
+            "name": "slash",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 22,
+            "min_hit": 4,
+            "max_hit": 7
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": [
+      {
+        "name": "You",
+        "total_damage": 0,
+        "total_healing": 4,
+        "hits": 0,
+        "crits": 0,
+        "misses": 0,
+        "heals": 1,
+        "first_seen": 1788492028.426,
+        "last_seen": 1788492028.426,
+        "abilities": [],
+        "heal_abilities": [
+          {
+            "name": "Life Drain",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "start_time": 1788491939.22,
+    "end_time": 1788492003.251,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 15,
+        "total_healing": 0,
+        "hits": 6,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788491939.22,
+        "last_seen": 1788491997.265,
+        "abilities": [
+          {
+            "name": "Noxious Deluge",
+            "school": "Poison",
+            "count": 6,
+            "crits": 0,
+            "misses": 0,
+            "total": 15,
+            "min_hit": 2,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a large rat",
+        "total_damage": 0,
+        "total_healing": 0,
+        "hits": 0,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1788491939.22,
+        "last_seen": 1788491939.22,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Rebel",
+        "total_damage": 10,
+        "total_healing": 0,
+        "hits": 4,
+        "crits": 0,
+        "misses": 2,
+        "heals": 0,
+        "first_seen": 1788491939.22,
+        "last_seen": 1788491997.265,
+        "abilities": [
+          {
+            "name": "hit",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 2,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "(melee/unknown)",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 10,
+            "min_hit": 2,
+            "max_hit": 3
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a fire beetle",
+        "total_damage": 19,
+        "total_healing": 0,
+        "hits": 7,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788491983.453,
+        "last_seen": 1788491995.804,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 7,
+            "crits": 0,
+            "misses": 0,
+            "total": 19,
+            "min_hit": 2,
+            "max_hit": 4
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788491864.247,
+    "end_time": 1788491939.22,
+    "actors": [
+      {
+        "name": "a large rat",
+        "total_damage": 6,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 2,
+        "heals": 0,
+        "first_seen": 1788491864.247,
+        "last_seen": 1788491939.22,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 2,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          },
+          {
+            "name": "bites",
+            "school": null,
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 6,
+            "min_hit": 3,
+            "max_hit": 3
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Rebel",
+        "total_damage": 15,
+        "total_healing": 0,
+        "hits": 5,
+        "crits": 0,
+        "misses": 2,
+        "heals": 0,
+        "first_seen": 1788491864.247,
+        "last_seen": 1788491939.22,
+        "abilities": [
+          {
+            "name": "(melee/unknown)",
+            "school": null,
+            "count": 5,
+            "crits": 0,
+            "misses": 0,
+            "total": 15,
+            "min_hit": 2,
+            "max_hit": 4
+          },
+          {
+            "name": "hit",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 2,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 48,
+        "total_healing": 0,
+        "hits": 9,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788491866.189,
+        "last_seen": 1788491939.22,
+        "abilities": [
+          {
+            "name": "slash",
+            "school": null,
+            "count": 6,
+            "crits": 0,
+            "misses": 0,
+            "total": 39,
+            "min_hit": 3,
+            "max_hit": 8
+          },
+          {
+            "name": "Noxious Deluge",
+            "school": "Poison",
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 9,
+            "min_hit": 2,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Kibobtik",
+        "total_damage": 2,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788491876.64,
+        "last_seen": 1788491876.64,
+        "abilities": [
+          {
+            "name": "(melee/unknown)",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 2,
+            "min_hit": 2,
+            "max_hit": 2
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  },
+  {
+    "start_time": 1788491847.913,
+    "end_time": 1788491851.516,
+    "actors": [
+      {
+        "name": "You",
+        "total_damage": 23,
+        "total_healing": 0,
+        "hits": 5,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788491847.913,
+        "last_seen": 1788491847.913,
+        "abilities": [
+          {
+            "name": "slash",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 16,
+            "min_hit": 3,
+            "max_hit": 7
+          },
+          {
+            "name": "Noxious Deluge",
+            "school": "Poison",
+            "count": 2,
+            "crits": 0,
+            "misses": 0,
+            "total": 7,
+            "min_hit": 2,
+            "max_hit": 5
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Kibobtik",
+        "total_damage": 11,
+        "total_healing": 0,
+        "hits": 4,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788491847.913,
+        "last_seen": 1788491849.847,
+        "abilities": [
+          {
+            "name": "(melee/unknown)",
+            "school": null,
+            "count": 4,
+            "crits": 0,
+            "misses": 0,
+            "total": 11,
+            "min_hit": 2,
+            "max_hit": 4
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a fire beetle",
+        "total_damage": 8,
+        "total_healing": 0,
+        "hits": 3,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788491847.913,
+        "last_seen": 1788491849.847,
+        "abilities": [
+          {
+            "name": "bites",
+            "school": null,
+            "count": 3,
+            "crits": 0,
+            "misses": 0,
+            "total": 8,
+            "min_hit": 2,
+            "max_hit": 3
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  }
+]

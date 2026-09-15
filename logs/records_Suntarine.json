@@ -1,0 +1,10 @@
+{
+  "by_ability": {
+    "slash": 8,
+    "Life Drain": 4
+  },
+  "by_damage_type": {
+    "melee": 8,
+    "Corruption": 4
+  }
+}

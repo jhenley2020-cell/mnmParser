@@ -1,0 +1,115 @@
+[
+  {
+    "start_time": 1788572429.23,
+    "end_time": 1788572437.916,
+    "actors": [
+      {
+        "name": "Duralin",
+        "total_damage": 14,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788572429.23,
+        "last_seen": 1788572429.23,
+        "abilities": [
+          {
+            "name": "Slam",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 14,
+            "min_hit": 14,
+            "max_hit": 14
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "Ilaton",
+        "total_damage": 10,
+        "total_healing": 0,
+        "hits": 1,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788572431.892,
+        "last_seen": 1788572431.892,
+        "abilities": [
+          {
+            "name": "Stab",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 10,
+            "min_hit": 10,
+            "max_hit": 10
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "You",
+        "total_damage": 17,
+        "total_healing": 0,
+        "hits": 2,
+        "crits": 0,
+        "misses": 0,
+        "heals": 0,
+        "first_seen": 1788572434.355,
+        "last_seen": 1788572437.916,
+        "abilities": [
+          {
+            "name": "crush",
+            "school": null,
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 4,
+            "min_hit": 4,
+            "max_hit": 4
+          },
+          {
+            "name": "Blast of Sleet",
+            "school": "Cold",
+            "count": 1,
+            "crits": 0,
+            "misses": 0,
+            "total": 13,
+            "min_hit": 13,
+            "max_hit": 13
+          }
+        ],
+        "heal_abilities": []
+      },
+      {
+        "name": "a desert bat",
+        "total_damage": 0,
+        "total_healing": 0,
+        "hits": 0,
+        "crits": 0,
+        "misses": 1,
+        "heals": 0,
+        "first_seen": 1788572434.355,
+        "last_seen": 1788572434.355,
+        "abilities": [
+          {
+            "name": "bite",
+            "school": null,
+            "count": 0,
+            "crits": 0,
+            "misses": 1,
+            "total": 0,
+            "min_hit": null,
+            "max_hit": null
+          }
+        ],
+        "heal_abilities": []
+      }
+    ],
+    "healers": []
+  }
+]
