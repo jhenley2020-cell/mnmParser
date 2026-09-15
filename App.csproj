@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    net8.0-windows + UseWindowsForms needs the Microsoft.WindowsDesktop.App
+    reference pack, which comes from NuGet: the dev sandbox this was built
+    in has no NuGet access, so THIS project (unlike Core) could not be
+    compiled or verified there. It was written carefully against known
+    WinForms APIs, but Jay's machine (with normal internet access) is the
+    first place it will actually build. Report any compiler errors back
+    and they'll get fixed from there.
+
+    OutputType is Exe (not WinExe) on purpose: this keeps the process
+    attached to whatever terminal launches it, so `dotnet run` / running
+    the .exe from a command prompt still shows Console.WriteLine output
+    (startup status, debug_print_scan_stats lines) the same way the old
+    Python version's terminal output did, while the Windows Forms window
+    opens normally alongside it.
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>MnmDamageParser</AssemblyName>
+    <RootNamespace>MnmDamageParser.App</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Core/Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Windows TTS (SAPI) for the spoken combat callouts. Windows-only,
+         which is fine (net8.0-windows). First restore needs NuGet. -->
+    <PackageReference Include="System.Speech" Version="8.0.0" />
+  </ItemGroup>
+
+  <!--
+    config/ is deliberately NOT copied into the build/publish output.
+    Program.FindRepoRoot walks up from the exe until it finds a folder
+    containing config/settings.json; from bin, from dist, or from a
+    `dotnet run` working directory, that walk lands on the repo's single
+    config folder. One config file, edited in place, picked up on the next
+    launch (no rebuild, no re-publish). An earlier revision copied it into
+    the output, which meant edits to config never reached the
+    shortcut-launched dist copy.
+  -->
+
+</Project>

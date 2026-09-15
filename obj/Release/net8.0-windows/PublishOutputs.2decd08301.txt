@@ -1,0 +1,9 @@
+C:\mm_damage_parser_cs\dist\MnmDamageParser.exe
+C:\mm_damage_parser_cs\dist\MnmDamageParser.dll
+C:\mm_damage_parser_cs\dist\MnmDamageParser.deps.json
+C:\mm_damage_parser_cs\dist\MnmDamageParser.runtimeconfig.json
+C:\mm_damage_parser_cs\dist\MnmDamageParser.pdb
+C:\mm_damage_parser_cs\dist\System.Speech.dll
+C:\mm_damage_parser_cs\dist\runtimes\win\lib\net8.0\System.Speech.dll
+C:\mm_damage_parser_cs\dist\MnmDamageParser.Core.dll
+C:\mm_damage_parser_cs\dist\MnmDamageParser.Core.pdb
