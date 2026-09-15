@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Deliberately NOT net8.0-windows here. P/Invoke declarations (DllImport)
+    compile fine on any OS: they only fail at runtime if the target DLL
+    doesn't exist, which is fine since this only ever runs on Windows in
+    practice. Keeping this project plain net8.0 (no Windows Desktop
+    dependency) means it needs zero NuGet packages to build, which matters
+    because the dev sandbox this was built in has no NuGet access. Only
+    the WinForms App project needs net8.0-windows, and that's the one
+    piece that could only be compiled on Jay's actual Windows machine.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>MnmDamageParser.Core</AssemblyName>
+    <RootNamespace>MnmDamageParser.Core</RootNamespace>
+  </PropertyGroup>
+
+</Project>

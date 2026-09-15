@@ -1,0 +1,11 @@
+C:\mm_damage_parser_cs\src\Core\bin\Release\net8.0\MnmDamageParser.Core.deps.json
+C:\mm_damage_parser_cs\src\Core\bin\Release\net8.0\MnmDamageParser.Core.dll
+C:\mm_damage_parser_cs\src\Core\bin\Release\net8.0\MnmDamageParser.Core.pdb
+C:\mm_damage_parser_cs\src\Core\obj\Release\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\mm_damage_parser_cs\src\Core\obj\Release\net8.0\Core.AssemblyInfoInputs.cache
+C:\mm_damage_parser_cs\src\Core\obj\Release\net8.0\Core.AssemblyInfo.cs
+C:\mm_damage_parser_cs\src\Core\obj\Release\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\mm_damage_parser_cs\src\Core\obj\Release\net8.0\MnmDamageParser.Core.dll
+C:\mm_damage_parser_cs\src\Core\obj\Release\net8.0\refint\MnmDamageParser.Core.dll
+C:\mm_damage_parser_cs\src\Core\obj\Release\net8.0\MnmDamageParser.Core.pdb
+C:\mm_damage_parser_cs\src\Core\obj\Release\net8.0\ref\MnmDamageParser.Core.dll
