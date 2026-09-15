@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    net8.0-windows + WinForms (for the `map` command's dot-map window;
+    everything else here is plain console). References Core to reuse
+    IMemoryReader/Win32MemoryReader/MemoryRegion and OffsetsConfig instead
+    of re-implementing process-memory plumbing that's already written and
+    tested; Core itself stays plain net8.0 (a net8.0-windows app can
+    consume a net8.0 library fine).
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>MnmMemScan</AssemblyName>
+    <RootNamespace>MnmDamageParser.MemScan</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+  </ItemGroup>
+
+</Project>

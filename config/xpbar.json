@@ -1,0 +1,25 @@
+{
+  "region": {
+    "left": 1706,
+    "top": 162,
+    "width": 191,
+    "height": 22
+  },
+  "fill_rgb": [
+    187,
+    148,
+    40
+  ],
+  "empty_rgb": [
+    39,
+    39,
+    38
+  ],
+  "edge_trim_px": 2,
+  "interval_sec": 0.6,
+  "samples_per_read": 3,
+  "rate_window_sec": 120,
+  "delta_hold_sec": 12,
+  "levelup_drop": 0.12,
+  "noise_floor": 0.0008
+}

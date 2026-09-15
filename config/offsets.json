@@ -1,0 +1,151 @@
+{
+    "_readme": "Ported from the Python version. Only heap_scan mode is supported here (the other buffer.mode variants -- dotnet_string_list, ring_fixed_stride, scrolling_blob -- were legacy/unused stubs for other games, not ported). Regex patterns use .NET named-group syntax (?<name>...) instead of Python's (?P<name>...) -- same meaning, different prefix. Pattern ORDER matters: the first match wins, so the specific 'X's <ability> hits' shapes must come before the bare-verb melee shapes. Line shapes below were reconstructed/verified against real captured combat text in logs/combat_events.jsonl.",
+    "_chat_anchors_note": "buffer.chat_anchors feed the Chat window (App toolbar 'Chat'). Scanned in the same heap sweep as buffer.anchors. A line found ONLY via a chat anchor -- no combat anchor, no combat-pattern match -- is shown in the Chat window and NOT run through the combat parser or the unmatched-line log. '<color=#' catches the colour-wrapped copy the game keeps of nearly every chat line. Set to [] to disable the feature.",
+    "module": "mnm.exe",
+    "text_log": {
+        "buffer": {
+            "encoding": "utf-16-le",
+            "anchors": [
+                "points of",
+                "misses!",
+                "have slain",
+                "heals ",
+                "resists ",
+                "tarting to attack",
+                "topped attacking",
+                "Game Time:",
+                "The date is "
+            ],
+            "chat_anchors": [
+                "<color=#"
+            ],
+            "string_length_offset": "0x10",
+            "string_chars_offset": "0x14",
+            "max_back_walk_bytes": 600,
+            "full_sweep_interval_seconds": 45,
+            "explore_bytes_per_poll": 268435456,
+            "yield_every_regions": 15,
+            "yield_seconds": 0.001,
+            "content_dedup_window_seconds": 3.0,
+            "max_entries_per_poll": 200,
+            "debug_print_unmatched_lines": true,
+            "debug_print_scan_stats": false
+        },
+        "line_patterns": [
+            {
+                "name": "your_pet_hit_school",
+                "_comment": "'Your pet Rebel hits <target> for N points of <school> Damage.' -- the pet is the SOURCE (captured), so its damage lands on its own combatant row, not merged into You. MUST precede you_hit_named_ability or that pattern eats it as ability='pet Rebel', source='You'.",
+                "event_type": "hit",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?Your pet (?<source>.+?) hits (?<target>.+?) for (?<amount>\\d+) points? of (?<school>\\w+) Damage\\.(?:</color>)?$"
+            },
+            {
+                "name": "your_pet_hit",
+                "event_type": "hit",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?Your pet (?<source>.+?) hits (?<target>.+?) for (?<amount>\\d+) points? of damage[.!](?:</color>)?$"
+            },
+            {
+                "name": "your_pet_miss",
+                "event_type": "miss",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?Your pet (?<source>.+?) tries to (?<ability>[a-z]+) (?<target>.+?), but misses!(?:</color>)?$"
+            },
+            {
+                "name": "other_hit_your_pet",
+                "_comment": "'<mob> bites/hits your pet Rebel for N points of damage.' -- keeps the mob as the source and the pet name as the target (was being mis-split by general_melee_hit into source='a young crypt scarab bites your'). MUST precede general_melee_hit.",
+                "event_type": "hit",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?(?<source>.+?) (?<ability>[a-z]+) your pet (?<target>.+?) for (?<amount>\\d+) points? of damage[.!](?:</color>)?$"
+            },
+            {
+                "name": "enemy_miss_your_pet",
+                "event_type": "miss",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?(?<source>.+?) tries to (?<ability>[a-z]+) your pet (?<target>.+?), but misses!(?:</color>)?$"
+            },
+            {
+                "name": "you_hit_named_ability",
+                "_comment": "DoT ticks and other emphatic hits end in '!' not '.', so accept both.",
+                "event_type": "hit",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?Your (?<ability>.+?) hits (?<target>.+?) for (?<amount>\\d+) points? of (?<school>\\w+) Damage[.!](?:</color>)?$",
+                "default_source": "You"
+            },
+            {
+                "name": "you_hit_named_ability_no_school",
+                "event_type": "hit",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?Your (?<ability>.+?) hits (?<target>.+?) for (?<amount>\\d+) points? of damage[.!](?:</color>)?$",
+                "default_source": "You"
+            },
+            {
+                "name": "other_hit_named_ability",
+                "event_type": "hit",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?(?<source>.+?)'s (?<ability>.+?) hits (?<target>.+?) for (?<amount>\\d+) points? of (?<school>\\w+) Damage[.!](?:</color>)?$"
+            },
+            {
+                "name": "other_hit_named_ability_no_school",
+                "event_type": "hit",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?(?<source>.+?)'s (?<ability>.+?) hits (?<target>.+?) for (?<amount>\\d+) points? of damage[.!](?:</color>)?$"
+            },
+            {
+                "name": "general_melee_hit",
+                "_comment": "<source> <verb> <target> for N points of damage. -- covers you->mob, mob->you, and (the shape that was being dropped) other-player->mob and mob->other-player. The verb is lowercase (?<ability>[a-z]+); the target must look like a name so source/verb/target don't mis-split when the source itself has spaces ('a desert bat'). MUST stay after the named-ability patterns above.",
+                "event_type": "hit",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?(?<source>.+?) (?<ability>[a-z]+) (?<target>YOU|an? .+?|the .+?|[A-Z][\\w'-]*(?: [A-Z][\\w'-]*)*) for (?<amount>\\d+) points? of damage[.!](?:</color>)?$"
+            },
+            {
+                "name": "enemy_miss",
+                "event_type": "miss",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?(?<source>.+?) tries to (?<ability>[A-Za-z]+) YOU, but misses!(?:</color>)?$",
+                "default_target": "You"
+            },
+            {
+                "name": "_unconfirmed_you_miss",
+                "event_type": "miss",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?You try to (?<ability>[A-Za-z]+) (?<target>.+?), but miss!(?:</color>)?$",
+                "default_source": "You"
+            },
+            {
+                "name": "you_engage",
+                "_comment": "Real log line is bare 'Starting to attack.' with NO target (sometimes color-wrapped). Target group is optional so both 'Starting to attack.' and a future 'Starting to attack <x>.' parse.",
+                "event_type": "engage",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?(?:You[^.!<]*? )?[Ss]tarting to attack(?: (?<target>[^.!<]+?))?[.!]?(?:</color>)?$",
+                "default_source": "You"
+            },
+            {
+                "name": "you_disengage",
+                "_comment": "Real log line is bare 'Stopped attacking.' with NO target (sometimes color-wrapped, incl. <color=#FF0000>).",
+                "event_type": "disengage",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?(?:You[^.!<]*? )?[Ss]topped attacking(?: (?<target>[^.!<]+?))?[.!]?(?:</color>)?$",
+                "default_source": "You"
+            },
+            {
+                "name": "_unconfirmed_you_resist",
+                "_comment": "GUESSED wording -- M&M spell-resist lines have never been captured. Best guess by symmetry with the game's present-tense third-person style ('a rat bites YOU'). If real resists don't announce, check logs/unmatched_<char>.log for the actual text and fix this one line.",
+                "event_type": "resist",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?(?<target>.+?) resists your (?<ability>.+?)[.!](?:</color>)?$",
+                "default_source": "You"
+            },
+            {
+                "name": "you_slay_target",
+                "_comment": "Usually 'You have slain <target>.' but a bare 'You have slain' (no target) has been seen -- target group optional so both fire a kill.",
+                "event_type": "kill",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?You have slain(?: (?<target>[^.!<]+?))?[.!]?(?:</color>)?$",
+                "default_source": "You"
+            },
+            {
+                "name": "you_or_other_heal",
+                "event_type": "heal",
+                "regex": "^(?:<color=#[0-9A-Fa-f]{6}>)?(?:Your (?<ability>.+?)|(?<source>.+?)'s (?<ability2>.+?)) heals? (?<target>.+?) for (?<amount>\\d+)(?: [A-Za-z]+)?[.!]?(?:</color>)?$",
+                "default_source": "You"
+            },
+            {
+                "name": "world_time_clock",
+                "_comment": "The /time command's clock line. Confirmed wording: 'Game Time: 3 AM' (hour only; minutes assumed :00 -- the ':MM' group is there in case some times show them). Leading '.*?' tolerates a channel/timestamp prefix if chat adds one. MeterState packs the game minute-of-day into the event's Amount and feeds it to the GameClock (a full M&M day = 72 real minutes).",
+                "event_type": "world_time",
+                "regex": "^.*?Game Time:\\s*(?<hour>\\d{1,2})(?::(?<minute>\\d{2}))?\\s*(?<ampm>[AaPp][Mm])\\b.*$"
+            },
+            {
+                "name": "world_date",
+                "_comment": "The /time command's calendar line: 'The date is Tilusten, the 4th of Harvesttide in the year 608 After the Reformation. It is Autumn'. Held verbatim for display; event Amount is -1 to mark it as a date (not a clock) update.",
+                "event_type": "world_time",
+                "regex": "^.*?The date is (?<date>.+?)\\.?\\s*(?:</color>)?$"
+            }
+        ]
+    }
+}

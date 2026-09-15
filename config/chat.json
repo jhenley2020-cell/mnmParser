@@ -1,0 +1,20 @@
+{
+    "_readme": "Categories for the split Chat windows (App toolbar 'Chat' opens one window per category). A tag-stripped chat line is tested against each category's 'match' regexes IN ORDER; the first category with any regex hitting wins. A line matching nothing lands in the 'Other' window -- watch that one and add rules here. 'deny' regexes drop a line from ALL windows (use for combat the parser can't shape -- damageless/absorbed hits -- leaking in as chat). .NET regex syntax, case-sensitive. Reorder / add / delete freely and relaunch -- no rebuild. Set 'categories' to [] (or delete this file) for a single combined Chat window.",
+    "deny": [
+        " but they absorb the attack",
+        "\\babsorbs? the (?:attack|blow|hit)\\b",
+        "\\b\\w+s YOU[.!]$"
+    ],
+    "categories": [
+        { "name": "OOC",     "match": ["\\bsays out of character[,:]"] },
+        { "name": "Shout",   "match": ["\\bshouts[,:]"] },
+        { "name": "Say",     "match": ["\\bsays\\b"] },
+        { "name": "Deaths",  "match": ["has been slain by", "\\bhas died\\b", "has come back to life", "\\bhas been resurrected\\b"] },
+        { "name": "Loot",    "match": ["\\bYou loot .+ from ", "\\bYou receive .+ from ", "\\breceives .+ as their share"] },
+        { "name": "Skills",  "match": ["Your skill in .+ has increased", "skill (?:starts at|increases)", "You have gained a level", "You are now level"] },
+        { "name": "Casting", "match": ["\\bYou begin casting ", "Your casting is interrupted", "Your spell fizzles", "\\bYou fail to ", "regain your concentration"] },
+        { "name": "Effects", "match": ["\\bis infused with ", "\\bis (?:encircled|surrounded) by ", "\\bis filled with ", "\\bbecomes resilient", "[\\w']+ [\\w ]*?(?:fury|strength|resilience|shield|power|might|presence|blessing|ward|rage) [\\w ]*?fades", " looks (?:strong|weak|refreshed|exhausted)"] },
+        { "name": "Mobs",    "match": ["\\bis chilled to the bone", "\\bwarms up\\.", "\\blooks mentally exhausted", "\\b(?:views|regards) you as ", "\\bseems (?:indifferent|ready|to be)", "\\bglares at you"] },
+        { "name": "Zone",    "match": ["\\bYou have entered ", "\\bYou think you are heading ", "You have no idea which direction", "\\bYou are hungry", "\\bYou feel the ", "\\bIt is now "] }
+    ]
+}

@@ -1,0 +1,7 @@
+C:\mm_damage_parser_cs\dist\MemScan\MnmMemScan.exe
+C:\mm_damage_parser_cs\dist\MemScan\MnmMemScan.dll
+C:\mm_damage_parser_cs\dist\MemScan\MnmMemScan.deps.json
+C:\mm_damage_parser_cs\dist\MemScan\MnmMemScan.runtimeconfig.json
+C:\mm_damage_parser_cs\dist\MemScan\MnmMemScan.pdb
+C:\mm_damage_parser_cs\dist\MemScan\MnmDamageParser.Core.dll
+C:\mm_damage_parser_cs\dist\MemScan\MnmDamageParser.Core.pdb

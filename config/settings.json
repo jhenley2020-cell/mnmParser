@@ -1,0 +1,38 @@
+{
+  "process_name": "mnm.exe",
+  "poll_interval_seconds": 0.5,
+  "encounter_idle_timeout_seconds": 50,
+  "rolling_window_seconds": 10,
+  "max_encounter_history": 50,
+  "window": {
+    "width": 900,
+    "height": 600,
+    "refresh_ms": 500,
+    "player_name": "You"
+  },
+  "pet_names": [
+    "Rebel"
+  ],
+  "pet_window_auto_open": true,
+  "log_events_to_file": true,
+  "event_log_path": "logs/combat_events.jsonl",
+  "character_name": "",
+  "character_recheck_seconds": 10,
+  "voice": {
+    "announce_hits": false,
+    "announce_misses": false,
+    "announce_resists": false,
+    "announce_records": false,
+    "announce_levelups": false,
+    "announce_attackers": false,
+    "announce_kills": false,
+    "announce_engage": false,
+    "announce_disengage": false,
+    "voice_name": "Microsoft Zira Desktop",
+    "voice_pitch": "\u002B6",
+    "rate": 2,
+    "volume": 95,
+    "hit_cooldown_seconds": 2.5
+  },
+  "show_xp_panel": true
+}

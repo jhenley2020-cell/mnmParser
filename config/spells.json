@@ -1,0 +1,11 @@
+{
+  "_readme": "DoT / debuff expiry timers for the 'Timers' window. The meter can't read the game's spell data, so fill these in by hand from your in-game spellbook. Only spells with duration_seconds > 0 are tracked; a timer starts (or refreshes) when a tracked spell's damage tick is seen on a target and counts down from duration_seconds. tick_seconds is the gap between damage ticks -- used to tell a still-ticking DoT from a fresh re-cast (default 6). kind is just a label ('dot' or 'debuff'). Durations below are ESTIMATES read off the combat log (tick cadence + how long each runs before a recast) -- correct them from your spellbook. NOTE: pure debuffs that deal NO damage can't be auto-detected yet -- the game logs no cast line. If you want those, cast one and send logs/unmatched_<char>.log so the 'lands on' / 'wears off' wording can be added.",
+  "spells": [
+    { "name": "Noxious Deluge",  "duration_seconds": 24, "tick_seconds": 6,  "kind": "dot" },
+    { "name": "Vampirism",       "duration_seconds": 18, "tick_seconds": 12, "kind": "dot" },
+    { "name": "Minor Frostbite", "duration_seconds": 24, "tick_seconds": 6,  "kind": "dot" },
+
+    { "name": "Life Drain",      "duration_seconds": 0, "kind": "dot" },
+    { "name": "Blast of Sleet",  "duration_seconds": 0, "kind": "dot" }
+  ]
+}
