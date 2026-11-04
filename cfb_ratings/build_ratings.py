@@ -160,6 +160,11 @@ def build_players(year, team):
     skill = skill_ratings(year, team)
     defense = defense_production(year, team)
     usage = {u["id"]: u["usage"]["overall"] for u in get("player/usage", year=year, team=team, excludeGarbageTime="true")}
+    avail_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "availability.json")
+    overrides = {}
+    if os.path.exists(avail_path):
+        with open(avail_path) as f:
+            overrides = json.load(f).get(team, {})
     players = []
     for r in roster:
         pid = r["id"]
@@ -173,6 +178,10 @@ def build_players(year, team):
         else:
             entry.update({"rating": None, "confidence": "none",
                           "basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)"})
+        o = overrides.get(entry["name"])
+        entry["availability"] = o["status"] if o else "available"
+        if o:
+            entry["availability_note"] = o.get("note")
         players.append(entry)
     players.sort(key=lambda p: (p["rating"] is None, -(p["rating"] or 0)))
     return players
