@@ -182,6 +182,8 @@ def build_players(year, team):
         entry["availability"] = o["status"] if o else "available"
         if o:
             entry["availability_note"] = o.get("note")
+            if o.get("role"):
+                entry["role"] = o["role"]
         players.append(entry)
     players.sort(key=lambda p: (p["rating"] is None, -(p["rating"] or 0)))
     return players

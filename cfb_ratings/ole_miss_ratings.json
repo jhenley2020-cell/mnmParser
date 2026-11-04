@@ -247,7 +247,9 @@
       "plays": 16,
       "confidence": "low",
       "basis": "league-wide PPA, shrunk",
-      "availability": "available"
+      "availability": "available",
+      "availability_note": "Expected to be the primary back with Lacy out (user-supplied, unverified). Rating rests on only 16 plays, so treat as unproven.",
+      "role": "primary RB"
     },
     {
       "id": "5086388",
