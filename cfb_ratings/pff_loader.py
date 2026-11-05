@@ -122,7 +122,12 @@ def merge(a):
         sd = math.sqrt(sum(s * (x - mu) ** 2 for x, s in v) / tot) or 1.0
         stats[g] = (mu, sd)
 
-    aliases = {t.lower() for t in CFG["team_aliases"].get(a.team, [a.team])}
+    names = list(CFG["team_aliases"].get(a.team, []))
+    if not names:   # default: CFBD school + mascot, e.g. "Alabama Crimson Tide" (PFF's naming)
+        from build_ratings import get
+        t = [x for x in get("teams/fbs", year=a.year) if x["school"] == a.team]
+        names = [f'{x["school"]} {x["mascot"]}' for x in t] or [a.team]
+    aliases = {t.lower() for t in names}
     mine = defaultdict(list)
     for r in rows:
         if r["team"].lower() in aliases:
