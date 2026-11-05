@@ -36,7 +36,9 @@
       "cfbd_rating": 94,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 79.3,
-      "pff_snaps": 381
+      "pff_snaps": 381,
+      "ea_overall": 94,
+      "ea_minus_rating": -1
     },
     {
       "id": "4870961",
@@ -55,7 +57,9 @@
       "cfbd_rating": 95,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 80.1,
-      "pff_snaps": 322
+      "pff_snaps": 322,
+      "ea_overall": 77,
+      "ea_minus_rating": -15
     },
     {
       "id": "5079647",
@@ -75,7 +79,9 @@
       "cfbd_rating": 71,
       "cfbd_basis": "league-wide PPA, shrunk",
       "pff_grade": 72.0,
-      "pff_snaps": 339
+      "pff_snaps": 339,
+      "ea_overall": 81,
+      "ea_minus_rating": -11
     },
     {
       "id": "5147724",
@@ -93,7 +99,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 71.1,
-      "pff_snaps": 474
+      "pff_snaps": 474,
+      "ea_overall": 82,
+      "ea_minus_rating": -8
     },
     {
       "id": "4911529",
@@ -113,7 +121,9 @@
       "cfbd_rating": 91,
       "cfbd_basis": "league-wide PPA, shrunk",
       "pff_grade": 82.4,
-      "pff_snaps": 563
+      "pff_snaps": 563,
+      "ea_overall": 94,
+      "ea_minus_rating": 5
     },
     {
       "id": "5152158",
@@ -133,7 +143,9 @@
       "cfbd_rating": 75,
       "cfbd_basis": "league-wide PPA, shrunk",
       "pff_grade": 73.8,
-      "pff_snaps": 450
+      "pff_snaps": 450,
+      "ea_overall": 89,
+      "ea_minus_rating": 0
     },
     {
       "id": "4870912",
@@ -149,7 +161,9 @@
       "plays": 25,
       "confidence": "low",
       "basis": "league-wide PPA, shrunk",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 79,
+      "ea_minus_rating": -8
     },
     {
       "id": "5224178",
@@ -169,7 +183,9 @@
       "cfbd_rating": 83,
       "cfbd_basis": "league-wide PPA, shrunk",
       "pff_grade": 76.6,
-      "pff_snaps": 136
+      "pff_snaps": 136,
+      "ea_overall": 79,
+      "ea_minus_rating": -7
     },
     {
       "id": "5079400",
@@ -188,7 +204,9 @@
       "cfbd_rating": 81,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 73.0,
-      "pff_snaps": 340
+      "pff_snaps": 340,
+      "ea_overall": 86,
+      "ea_minus_rating": 1
     },
     {
       "id": "5102910",
@@ -207,7 +225,35 @@
       "cfbd_rating": 81,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 75.2,
-      "pff_snaps": 436
+      "pff_snaps": 436,
+      "ea_overall": 89,
+      "ea_minus_rating": 4
+    },
+    {
+      "id": "5214395",
+      "name": "Shekai Mills-Knight",
+      "pos": "RB",
+      "jersey": 33,
+      "class_year": 1,
+      "height_in": 74,
+      "weight_lb": 220,
+      "usage_share": 0.216,
+      "rating": 85,
+      "avg_ppa": 0.27,
+      "plays": 16,
+      "confidence": "low",
+      "basis": "PFF grade, shrunk toward position mean by snaps",
+      "availability": "available",
+      "availability_note": "Expected to be the primary back with Lacy out (user-supplied, unverified). Rating rests on only 16 plays, so treat as unproven.",
+      "role": "primary RB",
+      "cfbd_rating": 78,
+      "cfbd_basis": "league-wide PPA, shrunk",
+      "pff_grade": 75.2,
+      "pff_snaps": 43,
+      "ea_overall": 77,
+      "ea_minus_rating": 5,
+      "computed_rating": 72,
+      "rating_override_note": "Manual override (user-set)."
     },
     {
       "id": "4917327",
@@ -226,7 +272,9 @@
       "cfbd_rating": 61,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 75.7,
-      "pff_snaps": 203
+      "pff_snaps": 203,
+      "ea_overall": 84,
+      "ea_minus_rating": 1
     },
     {
       "id": "4701945",
@@ -244,7 +292,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 67.4,
-      "pff_snaps": 577
+      "pff_snaps": 577,
+      "ea_overall": 82,
+      "ea_minus_rating": -1
     },
     {
       "id": "5167174",
@@ -263,7 +313,9 @@
       "cfbd_rating": 56,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 77.0,
-      "pff_snaps": 116
+      "pff_snaps": 116,
+      "ea_overall": 72,
+      "ea_minus_rating": -10
     },
     {
       "id": "4873763",
@@ -282,7 +334,9 @@
       "cfbd_rating": 62,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 73.7,
-      "pff_snaps": 209
+      "pff_snaps": 209,
+      "ea_overall": 72,
+      "ea_minus_rating": -9
     },
     {
       "id": "4918093",
@@ -301,7 +355,9 @@
       "cfbd_rating": 94,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 71.8,
-      "pff_snaps": 505
+      "pff_snaps": 505,
+      "ea_overall": 87,
+      "ea_minus_rating": 7
     },
     {
       "id": "5086388",
@@ -322,7 +378,9 @@
       "cfbd_rating": 77,
       "cfbd_basis": "league-wide PPA, shrunk",
       "pff_grade": 77.1,
-      "pff_snaps": 214
+      "pff_snaps": 214,
+      "ea_overall": 95,
+      "ea_minus_rating": 15
     },
     {
       "id": "5210726",
@@ -340,7 +398,33 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 74.1,
-      "pff_snaps": 45
+      "pff_snaps": 45,
+      "ea_overall": 68,
+      "ea_minus_rating": -12
+    },
+    {
+      "id": "5084286",
+      "name": "Makhi Frazier",
+      "pos": "RB",
+      "jersey": 25,
+      "class_year": 1,
+      "height_in": 70,
+      "weight_lb": 225,
+      "usage_share": 0.153,
+      "rating": 80,
+      "avg_ppa": 0.014,
+      "plays": 60,
+      "confidence": "medium",
+      "basis": "PFF grade, shrunk toward position mean by snaps",
+      "availability": "available",
+      "cfbd_rating": 61,
+      "cfbd_basis": "league-wide PPA, shrunk",
+      "pff_grade": 73.2,
+      "pff_snaps": 222,
+      "ea_overall": 81,
+      "ea_minus_rating": 10,
+      "computed_rating": 71,
+      "rating_override_note": "Manual override (user-set)."
     },
     {
       "id": "4708488",
@@ -359,7 +443,9 @@
       "cfbd_rating": 80,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 71.1,
-      "pff_snaps": 359
+      "pff_snaps": 359,
+      "ea_overall": 87,
+      "ea_minus_rating": 9
     },
     {
       "id": "4711408",
@@ -379,7 +465,9 @@
       "cfbd_rating": 80,
       "cfbd_basis": "league-wide PPA, shrunk",
       "pff_grade": 67.9,
-      "pff_snaps": 372
+      "pff_snaps": 372,
+      "ea_overall": 81,
+      "ea_minus_rating": 5
     },
     {
       "id": "4870797",
@@ -399,7 +487,9 @@
       "cfbd_rating": 64,
       "cfbd_basis": "league-wide PPA, shrunk",
       "pff_grade": 61.3,
-      "pff_snaps": 396
+      "pff_snaps": 396,
+      "ea_overall": 86,
+      "ea_minus_rating": 10
     },
     {
       "id": "4870967",
@@ -418,7 +508,9 @@
       "cfbd_rating": 88,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 71.3,
-      "pff_snaps": 270
+      "pff_snaps": 270,
+      "ea_overall": 92,
+      "ea_minus_rating": 17
     },
     {
       "id": "5158962",
@@ -437,7 +529,9 @@
       "cfbd_rating": 53,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 74.1,
-      "pff_snaps": 37
+      "pff_snaps": 37,
+      "ea_overall": 73,
+      "ea_minus_rating": -1
     },
     {
       "id": "5141506",
@@ -455,7 +549,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 80.3,
-      "pff_snaps": 35
+      "pff_snaps": 35,
+      "ea_overall": 79,
+      "ea_minus_rating": 5
     },
     {
       "id": "5125900",
@@ -471,7 +567,9 @@
       "plays": 1,
       "confidence": "low",
       "basis": "league-wide PPA, shrunk",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 74,
+      "ea_minus_rating": 1
     },
     {
       "id": "4685487",
@@ -490,7 +588,9 @@
       "cfbd_rating": 53,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 68.4,
-      "pff_snaps": 174
+      "pff_snaps": 174,
+      "ea_overall": 88,
+      "ea_minus_rating": 15
     },
     {
       "id": "5141359",
@@ -511,28 +611,6 @@
       "pff_snaps": 14
     },
     {
-      "id": "5214395",
-      "name": "Shekai Mills-Knight",
-      "pos": "RB",
-      "jersey": 33,
-      "class_year": 1,
-      "height_in": 74,
-      "weight_lb": 220,
-      "usage_share": 0.216,
-      "rating": 72,
-      "avg_ppa": 0.27,
-      "plays": 16,
-      "confidence": "low",
-      "basis": "PFF grade, shrunk toward position mean by snaps",
-      "availability": "available",
-      "availability_note": "Expected to be the primary back with Lacy out (user-supplied, unverified). Rating rests on only 16 plays, so treat as unproven.",
-      "role": "primary RB",
-      "cfbd_rating": 78,
-      "cfbd_basis": "league-wide PPA, shrunk",
-      "pff_grade": 75.2,
-      "pff_snaps": 43
-    },
-    {
       "id": "5198291",
       "name": "Connor Howes",
       "pos": "OL",
@@ -549,26 +627,6 @@
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 63.0,
       "pff_snaps": 447
-    },
-    {
-      "id": "5084286",
-      "name": "Makhi Frazier",
-      "pos": "RB",
-      "jersey": 25,
-      "class_year": 1,
-      "height_in": 70,
-      "weight_lb": 225,
-      "usage_share": 0.153,
-      "rating": 71,
-      "avg_ppa": 0.014,
-      "plays": 60,
-      "confidence": "medium",
-      "basis": "PFF grade, shrunk toward position mean by snaps",
-      "availability": "available",
-      "cfbd_rating": 61,
-      "cfbd_basis": "league-wide PPA, shrunk",
-      "pff_grade": 73.2,
-      "pff_snaps": 222
     },
     {
       "id": "5290682",
@@ -605,7 +663,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 62.7,
-      "pff_snaps": 555
+      "pff_snaps": 555,
+      "ea_overall": 83,
+      "ea_minus_rating": 12
     },
     {
       "id": "5294444",
@@ -660,7 +720,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 60.0,
-      "pff_snaps": 1
+      "pff_snaps": 1,
+      "ea_overall": 72,
+      "ea_minus_rating": 3
     },
     {
       "id": "5136837",
@@ -678,7 +740,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 62.0,
-      "pff_snaps": 19
+      "pff_snaps": 19,
+      "ea_overall": 71,
+      "ea_minus_rating": 2
     },
     {
       "id": "5139058",
@@ -696,7 +760,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 64.5,
-      "pff_snaps": 11
+      "pff_snaps": 11,
+      "ea_overall": 74,
+      "ea_minus_rating": 5
     },
     {
       "id": "5148599",
@@ -732,7 +798,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 56.6,
-      "pff_snaps": 2
+      "pff_snaps": 2,
+      "ea_overall": 77,
+      "ea_minus_rating": 8
     },
     {
       "id": "5245137",
@@ -750,7 +818,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 61.4,
-      "pff_snaps": 6
+      "pff_snaps": 6,
+      "ea_overall": 73,
+      "ea_minus_rating": 4
     },
     {
       "id": "5306605",
@@ -787,7 +857,9 @@
       "cfbd_rating": 85,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 67.3,
-      "pff_snaps": 336
+      "pff_snaps": 336,
+      "ea_overall": 71,
+      "ea_minus_rating": 3
     },
     {
       "id": "5210857",
@@ -806,7 +878,9 @@
       "cfbd_rating": 50,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 55.8,
-      "pff_snaps": 5
+      "pff_snaps": 5,
+      "ea_overall": 75,
+      "ea_minus_rating": 7
     },
     {
       "id": "5079630",
@@ -824,7 +898,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 55.2,
-      "pff_snaps": 20
+      "pff_snaps": 20,
+      "ea_overall": 73,
+      "ea_minus_rating": 5
     },
     {
       "id": "5218779",
@@ -842,7 +918,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 57.5,
-      "pff_snaps": 18
+      "pff_snaps": 18,
+      "ea_overall": 70,
+      "ea_minus_rating": 2
     },
     {
       "id": "5276946",
@@ -879,7 +957,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 59.8,
-      "pff_snaps": 57
+      "pff_snaps": 57,
+      "ea_overall": 78,
+      "ea_minus_rating": 11
     },
     {
       "id": "5166148",
@@ -898,7 +978,9 @@
       "cfbd_rating": 50,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 52.6,
-      "pff_snaps": 11
+      "pff_snaps": 11,
+      "ea_overall": 70,
+      "ea_minus_rating": 4
     },
     {
       "id": "5125819",
@@ -916,7 +998,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 59.4,
-      "pff_snaps": 30
+      "pff_snaps": 30,
+      "ea_overall": 78,
+      "ea_minus_rating": 12
     },
     {
       "id": "4870640",
@@ -935,7 +1019,9 @@
       "cfbd_rating": 59,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 64.1,
-      "pff_snaps": 166
+      "pff_snaps": 166,
+      "ea_overall": 89,
+      "ea_minus_rating": 24
     },
     {
       "id": "5268746",
@@ -954,7 +1040,9 @@
       "cfbd_rating": 54,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 65.0,
-      "pff_snaps": 84
+      "pff_snaps": 84,
+      "ea_overall": 77,
+      "ea_minus_rating": 12
     },
     {
       "id": "5149003",
@@ -974,7 +1062,9 @@
       "cfbd_rating": 71,
       "cfbd_basis": "league-wide PPA, shrunk",
       "pff_grade": 59.5,
-      "pff_snaps": 60
+      "pff_snaps": 60,
+      "ea_overall": 72,
+      "ea_minus_rating": 8
     },
     {
       "id": "5079592",
@@ -994,7 +1084,9 @@
       "cfbd_rating": 54,
       "cfbd_basis": "league-wide PPA, shrunk",
       "pff_grade": 54.5,
-      "pff_snaps": 129
+      "pff_snaps": 129,
+      "ea_overall": 76,
+      "ea_minus_rating": 12
     },
     {
       "id": "5146887",
@@ -1013,7 +1105,9 @@
       "cfbd_rating": 61,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 63.2,
-      "pff_snaps": 176
+      "pff_snaps": 176,
+      "ea_overall": 79,
+      "ea_minus_rating": 16
     },
     {
       "id": "5186737",
@@ -1032,7 +1126,9 @@
       "cfbd_rating": 51,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 61.2,
-      "pff_snaps": 62
+      "pff_snaps": 62,
+      "ea_overall": 67,
+      "ea_minus_rating": 4
     },
     {
       "id": "4870975",
@@ -1051,7 +1147,9 @@
       "cfbd_rating": 60,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 63.5,
-      "pff_snaps": 109
+      "pff_snaps": 109,
+      "ea_overall": 79,
+      "ea_minus_rating": 17
     },
     {
       "id": "5156438",
@@ -1070,7 +1168,9 @@
       "cfbd_rating": 53,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 54.0,
-      "pff_snaps": 36
+      "pff_snaps": 36,
+      "ea_overall": 71,
+      "ea_minus_rating": 10
     },
     {
       "id": "5079347",
@@ -1089,7 +1189,9 @@
       "cfbd_rating": 66,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 63.1,
-      "pff_snaps": 265
+      "pff_snaps": 265,
+      "ea_overall": 85,
+      "ea_minus_rating": 25
     },
     {
       "id": "5199855",
@@ -1108,7 +1210,9 @@
       "cfbd_rating": 51,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 53.7,
-      "pff_snaps": 34
+      "pff_snaps": 34,
+      "ea_overall": 68,
+      "ea_minus_rating": 8
     },
     {
       "id": "4870782",
@@ -1126,7 +1230,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 57.5,
-      "pff_snaps": 241
+      "pff_snaps": 241,
+      "ea_overall": 77,
+      "ea_minus_rating": 17
     },
     {
       "id": "5141528",
@@ -1145,7 +1251,9 @@
       "cfbd_rating": 49,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 56.5,
-      "pff_snaps": 68
+      "pff_snaps": 68,
+      "ea_overall": 74,
+      "ea_minus_rating": 16
     },
     {
       "id": "5209688",
@@ -1165,7 +1273,9 @@
       "cfbd_rating": 54,
       "cfbd_basis": "league-wide PPA, shrunk",
       "pff_grade": 62.2,
-      "pff_snaps": 90
+      "pff_snaps": 90,
+      "ea_overall": 80,
+      "ea_minus_rating": 24
     },
     {
       "id": "5125531",
@@ -1184,7 +1294,9 @@
       "cfbd_rating": 53,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 53.6,
-      "pff_snaps": 71
+      "pff_snaps": 71,
+      "ea_overall": 73,
+      "ea_minus_rating": 18
     },
     {
       "id": "5075950",
@@ -1202,7 +1314,9 @@
       "cfbd_rating": null,
       "cfbd_basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
       "pff_grade": 56.2,
-      "pff_snaps": 562
+      "pff_snaps": 562,
+      "ea_overall": 78,
+      "ea_minus_rating": 23
     },
     {
       "id": "5139216",
@@ -1221,7 +1335,9 @@
       "cfbd_rating": 84,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 60.5,
-      "pff_snaps": 356
+      "pff_snaps": 356,
+      "ea_overall": 83,
+      "ea_minus_rating": 29
     },
     {
       "id": "5141478",
@@ -1240,7 +1356,9 @@
       "cfbd_rating": 52,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 36.7,
-      "pff_snaps": 30
+      "pff_snaps": 30,
+      "ea_overall": 67,
+      "ea_minus_rating": 13
     },
     {
       "id": "4870656",
@@ -1260,7 +1378,9 @@
       "cfbd_rating": 65,
       "cfbd_basis": "league-wide PPA, shrunk",
       "pff_grade": 55.2,
-      "pff_snaps": 183
+      "pff_snaps": 183,
+      "ea_overall": 80,
+      "ea_minus_rating": 28
     },
     {
       "id": "5150437",
@@ -1309,7 +1429,9 @@
       "cfbd_rating": 52,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 52.3,
-      "pff_snaps": 111
+      "pff_snaps": 111,
+      "ea_overall": 73,
+      "ea_minus_rating": 23
     },
     {
       "id": "5218770",
@@ -1324,7 +1446,9 @@
       "production_index": 0.8,
       "confidence": "low",
       "basis": "box-score defensive production vs position peers",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 78,
+      "ea_minus_rating": 29
     },
     {
       "id": "5216627",
@@ -1358,7 +1482,9 @@
       "cfbd_rating": 63,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 51.1,
-      "pff_snaps": 264
+      "pff_snaps": 264,
+      "ea_overall": 78,
+      "ea_minus_rating": 34
     },
     {
       "id": "4870700",
@@ -1377,7 +1503,9 @@
       "cfbd_rating": 81,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 51.5,
-      "pff_snaps": 401
+      "pff_snaps": 401,
+      "ea_overall": 78,
+      "ea_minus_rating": 35
     },
     {
       "id": "4870588",
@@ -1396,7 +1524,9 @@
       "cfbd_rating": 66,
       "cfbd_basis": "box-score defensive production vs position peers",
       "pff_grade": 49.2,
-      "pff_snaps": 441
+      "pff_snaps": 441,
+      "ea_overall": 81,
+      "ea_minus_rating": 40
     },
     {
       "id": "4695341",
@@ -1410,7 +1540,8 @@
       "rating": null,
       "confidence": "none",
       "basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 73
     },
     {
       "id": "4870856",
@@ -1424,7 +1555,8 @@
       "rating": null,
       "confidence": "none",
       "basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 75
     },
     {
       "id": "5079425",
@@ -1466,7 +1598,8 @@
       "rating": null,
       "confidence": "none",
       "basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 65
     },
     {
       "id": "5092504",
@@ -1480,7 +1613,8 @@
       "rating": null,
       "confidence": "none",
       "basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 87
     },
     {
       "id": "5141555",
@@ -1494,7 +1628,8 @@
       "rating": null,
       "confidence": "none",
       "basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 74
     },
     {
       "id": "5141674",
@@ -1508,7 +1643,8 @@
       "rating": null,
       "confidence": "none",
       "basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 74
     },
     {
       "id": "5145040",
@@ -1592,7 +1728,8 @@
       "rating": null,
       "confidence": "none",
       "basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 74
     },
     {
       "id": "5156441",
@@ -1606,7 +1743,8 @@
       "rating": null,
       "confidence": "none",
       "basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 69
     },
     {
       "id": "5159172",
@@ -1648,7 +1786,8 @@
       "rating": null,
       "confidence": "none",
       "basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 71
     },
     {
       "id": "5160499",
@@ -1788,7 +1927,8 @@
       "rating": null,
       "confidence": "none",
       "basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 67
     },
     {
       "id": "5224144",
@@ -1844,7 +1984,8 @@
       "rating": null,
       "confidence": "none",
       "basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 72
     },
     {
       "id": "5294443",
@@ -1872,7 +2013,8 @@
       "rating": null,
       "confidence": "none",
       "basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 81
     },
     {
       "id": "5294448",
@@ -1886,7 +2028,8 @@
       "rating": null,
       "confidence": "none",
       "basis": "no snap/grade data in CFBD for this player (typical for OL and reserves)",
-      "availability": "available"
+      "availability": "available",
+      "ea_overall": 67
     },
     {
       "id": "5303246",

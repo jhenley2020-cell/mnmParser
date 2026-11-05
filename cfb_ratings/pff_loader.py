@@ -94,6 +94,17 @@ def grp(p):
     return POS_GROUP.get((p or "").upper(), (p or "").upper())
 
 
+def apply_overrides(players, team):
+    """Manual ratings from rating_overrides.json win over every computed rating."""
+    f = os.path.join(HERE, "rating_overrides.json")
+    ov = json.load(open(f, encoding="utf-8-sig")).get(team, {}) if os.path.exists(f) else {}
+    for p in players:
+        o = ov.get(p["name"])
+        if o:
+            p.setdefault("computed_rating", p.get("rating"))
+            p["rating"], p["rating_override_note"] = o["rating"], o.get("note")
+
+
 def merge(a):
     from build_ratings import to_rating   # same 40-99 mapping as the CFBD ratings
     rows = json.load(open(os.path.join(HERE, f"pff_grades_{a.year}.json")))
@@ -139,6 +150,7 @@ def merge(a):
                   "confidence": "high" if n >= 300 else "medium" if n >= 100 else "low",
                   "basis": "PFF grade, shrunk toward position mean by snaps"})
         hit += 1
+    apply_overrides(data["players"], a.team)
     data["players"].sort(key=lambda p: (p["rating"] is None, -(p["rating"] or 0)))
     json.dump(data, open(path, "w"), indent=2)
     print(f"matched {hit}/{len(data['players'])} roster players -> {path}")
