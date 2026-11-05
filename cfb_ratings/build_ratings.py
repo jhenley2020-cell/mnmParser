@@ -14,6 +14,8 @@ BASE = "https://api.collegefootballdata.com/"
 
 def get(path, **params):
     key = os.environ.get("CFBD_API_KEY")
+    if not key and os.path.exists(r"C:\PFF\CFBD.txt"):
+        key = open(r"C:\PFF\CFBD.txt", encoding="utf-8").read().strip()
     if not key:
         sys.exit("Set CFBD_API_KEY in the environment.")
     q = urllib.parse.urlencode({k: v for k, v in params.items() if v is not None})

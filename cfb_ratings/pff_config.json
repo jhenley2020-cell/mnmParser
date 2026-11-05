@@ -1,0 +1,9 @@
+{
+  "_comment": "Matches https://developer.pff.com/openapi.json (v2.1.0). Nothing here is a secret.",
+  "key_file": "C:\\PFF\\PFF API.txt",
+  "base_url": "https://api.pff.com",
+  "league": "ncaa",
+  "team_aliases": {"Ole Miss": ["Ole Miss", "Mississippi", "Mississippi Rebels"]},
+  "min_snaps_for_league_stats": 100,
+  "prior_snaps": 150
+}
